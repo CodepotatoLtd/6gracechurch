@@ -1,0 +1,96 @@
+.section-table {
+  .tablepress .even td {
+    background-color: transparent;
+  }
+  .tablepress .odd td {
+    background-color: transparent;
+  }
+
+  .tablepress td, .tablepress th {
+    padding: 12px;
+  }
+
+  .tablepress td {
+    padding-left: 0;
+  }
+
+  .text-black {
+    color: var(--text-color-black-copy);
+
+    td {
+      color: var(--text-color-black-copy);
+    }
+
+    .tablepress tbody td {
+      border-top: 1px solid var(--text-color-black-copy);
+    }
+
+    .tablepress tbody tr:first-child td {
+      border-top: 1px solid var(--text-color-black-copy);
+    }
+
+    .tablepress tbody tr:last-child td {
+      border-bottom: 1px solid var(--text-color-black-copy);
+    }
+  }
+
+  .text-white {
+    color: var(--text-color-white-copy);
+
+    td {
+      color: var(--text-color-white-copy);
+    }
+
+    .tablepress tbody td {
+      border-top: 1px solid var(--text-color-white-copy);
+    }
+
+    .tablepress tbody tr:first-child td {
+      border-top: 1px solid var(--text-color-white-copy);
+    }
+
+    .tablepress tbody tr:last-child td {
+      border-bottom: 1px solid var(--text-color-white-copy);
+    }
+  }
+
+  .text-light {
+    color: var(--text-color-light-copy);
+
+    td {
+      color: var(--text-color-light-copy);
+    }
+
+    .tablepress tbody td {
+      border-top: 1px solid var(--text-color-light-copy);
+    }
+
+    .tablepress tbody tr:first-child td {
+      border-top: 1px solid var(--text-color-light-copy);
+    }
+
+    .tablepress tbody tr:last-child td {
+      border-bottom: 1px solid var(--text-color-light-copy);
+    }
+  }
+
+  .text-dark {
+    color: var(--text-color-dark-copy);
+
+    td {
+      color: var(--text-color-dark-copy);
+    }
+
+    .tablepress tbody td {
+      border-top: 1px solid var(--text-color-dark-copy);
+    }
+
+    .tablepress tbody tr:first-child td {
+      border-top: 1px solid var(--text-color-dark-copy);
+    }
+
+    .tablepress tbody tr:last-child td {
+      border-bottom: 1px solid var(--text-color-dark-copy);
+    }
+  }
+}

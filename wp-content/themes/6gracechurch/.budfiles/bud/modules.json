@@ -1,0 +1,56 @@
+{
+  "chunks": {
+    "byName": {
+      "app": 143,
+      "editor": 189,
+      "runtime": 666,
+      "vendor/app": 329
+    },
+    "bySource": {
+      "0 app": 666,
+      "0 editor": 666,
+      "1 app": 329,
+      "1 editor": 189,
+      "2 app": 143
+    },
+    "usedIds": [
+      143,
+      189,
+      329,
+      666
+    ]
+  },
+  "modules": {
+    "byIdentifier": {
+      "./node_modules/@roots/sage/lib/cjs/client/domReady.js": 329,
+      "./node_modules/@roots/sage/lib/cjs/client/index.js": 194,
+      "./node_modules/aos/dist/aos.js": 711,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/app.js": 683,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/autoload/_swiper.js": 746,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/editor.js|d6421ec9472236a33a8da65f3762c43d": 982,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/main.js|37d2aea17c33bab21df0c6d8c69d977d": 577,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/main.js|460f796b93a7bbd71a51426d02e111ce": 644,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/main.js|568b83d1f3eaecb873be665ffd04efd4": 174,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/main.js|8d4e061eb7c21be37c427312ceb61515": 502,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/main.js|a4b688f80465f973f02b9d23fbfb1f0e": 204,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/main.js|bafbbb164c049bd19245ced643951d7a": 973,
+      "./node_modules/gsap/ScrollToPlugin.js": 127,
+      "./node_modules/gsap/index.js|80115087fb10b644a5acf5474175e656": 358,
+      "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[13].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[13].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[13].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[13].use[4]!./resources/styles/app.scss": 190,
+      "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[2]!./resources/styles/app.css": 402,
+      "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[2]!./resources/styles/editor.css": 821
+    },
+    "usedIds": [
+      127,
+      174,
+      190,
+      194,
+      329,
+      358,
+      711,
+      746,
+      821,
+      982
+    ]
+  }
+}

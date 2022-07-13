@@ -1,0 +1,192 @@
+.p-t-mobile-none {
+  @include media-breakpoint-down(lg) {
+    padding-top: 0;
+  }
+}
+
+.p-t-mobile-element {
+  @include media-breakpoint-down(lg) {
+    padding-top: var(--element-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-top: var(--element-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-top: var(--element-md);
+    }
+  }
+}
+
+.p-t-mobile-intro {
+  @include media-breakpoint-down(lg) {
+    padding-top: var(--intro-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-top: var(--intro-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-top: var(--intro-md);
+    }
+  }
+}
+
+.p-t-mobile-section {
+  @include media-breakpoint-down(lg) {
+    padding-top: var(--section-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-top: var(--section-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-top: var(--section-md);
+    }
+  }
+}
+
+.p-r-mobile-none {
+  @include media-breakpoint-down(lg) {
+    padding-right: 0;
+  }
+}
+
+.p-r-mobile-element {
+  @include media-breakpoint-down(lg) {
+    padding-right: var(--element-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-right: var(--element-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-right: var(--element-md);
+    }
+  }
+}
+
+.p-r-mobile-intro {
+  @include media-breakpoint-down(lg) {
+    padding-right: var(--intro-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-right: var(--intro-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-right: var(--intro-md);
+    }
+  }
+}
+
+.p-r-mobile-section {
+  @include media-breakpoint-down(lg) {
+    padding-right: var(--section-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-right: var(--section-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-right: var(--section-md);
+    }
+  }
+}
+
+.p-b-mobile-none {
+  @include media-breakpoint-down(lg) {
+    padding-bottom: 0;
+  }
+}
+
+.p-b-mobile-element {
+  @include media-breakpoint-down(lg) {
+    padding-bottom: var(--element-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-bottom: var(--element-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: var(--element-md);
+    }
+  }
+}
+
+.p-b-mobile-intro {
+  @include media-breakpoint-down(lg) {
+    padding-bottom: var(--intro-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-bottom: var(--intro-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: var(--intro-md);
+    }
+  }
+}
+
+.p-b-mobile-section {
+  @include media-breakpoint-down(lg) {
+    padding-bottom: var(--section-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-bottom: var(--section-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: var(--section-md);
+    }
+  }
+}
+
+
+.p-l-mobile-none {
+  @include media-breakpoint-down(lg) {
+    padding-left: 0;
+  }
+}
+
+.p-l-mobile-element {
+  @include media-breakpoint-down(lg) {
+    padding-left: var(--element-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-left: var(--element-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-left: var(--element-md);
+    }
+  }
+}
+
+.p-l-mobile-intro {
+  @include media-breakpoint-down(lg) {
+    padding-left: var(--intro-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-left: var(--intro-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-left: var(--intro-md);
+    }
+  }
+}
+
+.p-l-mobile-section {
+  @include media-breakpoint-down(lg) {
+    padding-left: var(--section-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-left: var(--section-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-left: var(--section-md);
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+    "key": "group_5ea0ffad7db1c",
+    "title": "-- 9 -- options -- component -- breakpoint size factor",
+    "fields": [
+        {
+            "key": "field_5f24f73f8d413",
+            "label": "Scale",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "small-label acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ea0ffcce6a23",
+            "label": "xs",
+            "name": "xs",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": 1,
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea0ffeab6fbd",
+            "label": "sm",
+            "name": "sm",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": 1,
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea0fff2d9854",
+            "label": "md",
+            "name": "md",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": 1,
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea0fffb1880b",
+            "label": "lg",
+            "name": "lg",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": 1,
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea10006b4296",
+            "label": "xl",
+            "name": "xl",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": 1,
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea1000f1df33",
+            "label": "xxl",
+            "name": "xxl",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": 1,
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652731055
+}

@@ -1,0 +1,164 @@
+{
+    "key": "group_6231f35b8b7a3",
+    "title": "Vertical Spacing",
+    "fields": [
+        {
+            "key": "field_6231f35bc9819",
+            "label": "spacing",
+            "name": "spacing",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "90",
+                "class": "acf-group-style-no-label",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6231f35bcc66e",
+                    "label": "xs",
+                    "name": "xs",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "16",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "default_value": "1rem",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_6231f35bcc673",
+                    "label": "sm",
+                    "name": "sm",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "16",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "default_value": "1rem",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_6231f35bcc677",
+                    "label": "md",
+                    "name": "md",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "16",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "default_value": "1rem",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_6231f35bcc67e",
+                    "label": "lg",
+                    "name": "lg",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "16",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "default_value": "1rem",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_6231f35bcc686",
+                    "label": "xl",
+                    "name": "xl",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "16",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "default_value": "1rem",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_6231f35bcc68e",
+                    "label": "xxl",
+                    "name": "xxl",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "16",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "default_value": "1rem",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652731389
+}

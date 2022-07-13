@@ -1,0 +1,63 @@
+.header-gy-home {
+  height:135vw;
+  position: relative;
+
+  @include media-breakpoint-up(md) {
+    height:100vh;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 100vh;
+  }
+
+  .animated-background {
+    position: absolute;
+    top:0;
+    left: 100vw;
+    height: 100%;
+    width: 100vw;
+  }
+
+  .goat-image {
+    position: absolute;
+    bottom: 0;
+    width: 40vw;
+    height: 30vw;
+
+    @include media-breakpoint-up(lg) {
+      bottom: -10px;
+      width:20vw;
+      height:15vw;
+    }
+
+    left: 0;
+    mix-blend-mode: multiply;
+
+    overflow: hidden;
+  }
+
+  .animated-image {
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+    overflow: hidden;
+    width: 100%;
+
+  }
+  .animated-image > * {
+    position: absolute;
+    display: inline-block;
+    visibility: hidden;
+    border: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .title-wrapper {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100vw;
+  }
+}

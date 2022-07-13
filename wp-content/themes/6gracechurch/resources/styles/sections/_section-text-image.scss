@@ -1,0 +1,21 @@
+.section-text-image {
+  //
+
+  .animated-image-wrapper {
+    text-align: center;
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+
+    img {
+      margin: 0 auto;
+      margin-bottom: 30px;
+
+      @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

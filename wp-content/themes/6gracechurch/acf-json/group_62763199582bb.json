@@ -1,0 +1,60 @@
+{
+    "key": "group_62763199582bb",
+    "title": "-- 8 -- block helper -- Padding Top Mobile",
+    "fields": [
+        {
+            "key": "field_627631995fcf1",
+            "label": "Padding Top M",
+            "name": "padding_top_mobile",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "17",
+                "class": "small-label",
+                "id": ""
+            },
+            "choices": {
+                "section": "section",
+                "intro": "intro",
+                "element": "element",
+                "none": "none"
+            },
+            "default_value": "section",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652731029
+}

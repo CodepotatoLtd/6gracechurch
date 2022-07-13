@@ -1,0 +1,68 @@
+{
+    "key": "group_601fb56d0c15a",
+    "title": "-- 8 -- block helper -- Container width",
+    "fields": [
+        {
+            "key": "field_601fb56d0f140",
+            "label": "Container Width",
+            "name": "container_width",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "17",
+                "class": "small-label",
+                "id": ""
+            },
+            "choices": {
+                "12": "12",
+                "11": "11",
+                "10": "10",
+                "9": "9",
+                "8": "8",
+                "7": "7",
+                "6": "6",
+                "5": "5",
+                "4": "4",
+                "3": "3",
+                "2": "2",
+                "1": "1"
+            },
+            "default_value": 8,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652730693
+}

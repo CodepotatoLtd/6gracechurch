@@ -1,0 +1,166 @@
+{
+    "key": "group_5fe3328257b97",
+    "title": "Options  - Fonts",
+    "fields": [
+        {
+            "key": "field_5fe3328271c74",
+            "label": "Fonts",
+            "name": "fonts",
+            "type": "textarea",
+            "instructions": "Add in embed code here",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "<link href=\"https:\/\/fonts.googleapis.com\/css2?family=PT+Serif&display=swap\" rel=\"stylesheet\">\r\n<link href=\"https:\/\/fonts.googleapis.com\/css2?family=Lato:wght@700;900&display=swap\" rel=\"stylesheet\">",
+            "placeholder": "<link href=\"https:\/\/fonts.googleapis.com\/css2?family=PT+Serif&display=swap\" rel=\"stylesheet\"> <link href=\"https:\/\/fonts.googleapis.com\/css2?family=Lato:wght@700;900&display=swap\" rel=\"stylesheet\">",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5fe3328271c7c",
+            "label": "Headings",
+            "name": "fonts_headings",
+            "type": "text",
+            "instructions": "Add font-family",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'Lato', sans-serif;",
+            "placeholder": "'Lato', sans-serif;",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fe3328271c84",
+            "label": "Copy",
+            "name": "fonts_copy",
+            "type": "text",
+            "instructions": "Add font-family",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'PT Serif', serif;",
+            "placeholder": "'PT Serif', serif;",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fe3328271c8c",
+            "label": "Nav",
+            "name": "fonts_nav",
+            "type": "text",
+            "instructions": "Add font-family",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'Lato', sans-serif;",
+            "placeholder": "'Lato', sans-serif;",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fe3328271c94",
+            "label": "Buttons",
+            "name": "fonts_buttons",
+            "type": "text",
+            "instructions": "Add font-family",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'Lato', sans-serif;",
+            "placeholder": "'Lato', sans-serif;",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fe3328271c9c",
+            "label": "Quotes",
+            "name": "fonts_quotes",
+            "type": "text",
+            "instructions": "Add font-family",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'Lato', sans-serif;",
+            "placeholder": "'Lato', sans-serif;",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fe3328271ca4",
+            "label": "Cite",
+            "name": "fonts_cite",
+            "type": "text",
+            "instructions": "Add font-family",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'Lato', sans-serif;",
+            "placeholder": "'Lato', sans-serif;",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-fonts"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652731255
+}

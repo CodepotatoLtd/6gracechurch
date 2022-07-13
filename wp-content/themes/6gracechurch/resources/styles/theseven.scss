@@ -1,0 +1,281 @@
+#show-menu {
+  right: calc(var(--element-xs)/2) !important;
+  top:  calc(var(--element-xs)/2) !important;
+
+  @include media-breakpoint-up(sm) {
+    right:  calc(var(--element-sm)/2) !important;
+    top: calc(var(--element-sm)/2) !important;
+  }
+
+  @include media-breakpoint-up(md) {
+    right: var(--element-md) !important;
+    top: var(--element-md) !important;
+  }
+
+  @include media-breakpoint-up(lg) {
+    right: var(--element-lg) !important;
+    top: var(--element-lg) !important;
+  }
+
+  @include media-breakpoint-up(xl) {
+    right: var(--element-xl) !important;
+    top: var(--element-xl) !important;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    right: var(--element-xxl) !important;
+    top: var(--element-xxl) !important;
+  }
+}
+
+
+#header {
+  position: relative;
+
+  &:before {
+    display: block;
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 715.7 886' style='enable-background:new 0 0 715.7 886;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%2360B4A1;%7D .st1%7Bfill:%23E1B9C2;%7D%0A%3C/style%3E%3Cpath id='Path_1' class='st0' d='M73.2,0v403.1H0v329.3h263.4V886h452.3V0H73.2z'/%3E%3C/svg%3E%0A");
+    width: 500px;
+    height: calc(500px * 1.2);
+    position: absolute;
+    left: var(--element-xs);
+
+    @include media-breakpoint-up(sm) {
+      left: var(--element-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      left: var(--element-md);
+    }
+
+    @include media-breakpoint-up(lg) {
+      left: var(--element-lg);
+      display: block;
+    }
+
+    @include media-breakpoint-up(xl) {
+      left: var(--element-xl);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      left: var(--element-xxl);
+    }
+  }
+
+  .top {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc((var(--element-xs) *2) + 0px);
+
+    @include media-breakpoint-up(sm) {
+      top: calc((var(--element-sm) *2) + 0px);
+    }
+
+    @include media-breakpoint-up(md) {
+      top: calc((var(--element-md) *2) + 0px);
+    }
+
+    @include media-breakpoint-up(lg) {
+      top: var(--element-lg);
+    }
+
+    @include media-breakpoint-up(xl) {
+      top: var(--element-xl);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      top: var(--element-xxl);
+    }
+  }
+
+  .middle {
+    margin-bottom: 60px;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+    }
+  }
+
+  .bottom {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    bottom: calc((var(--element-xs) *2) + 60px);
+
+    @include media-breakpoint-up(sm) {
+      bottom: calc((var(--element-sm) *2) + 60px);
+    }
+
+    @include media-breakpoint-up(md) {
+      bottom: calc((var(--element-md) *2) + 60px);
+    }
+
+    @include media-breakpoint-up(lg) {
+      bottom: calc((var(--element-lg) *2) + 30px);
+    }
+
+    @include media-breakpoint-up(xl) {
+      bottom: calc((var(--element-xl) *2) + 30px);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      bottom: calc((var(--element-xxl) *2) + 30px);
+    }
+
+  }
+
+  .down-arrow {
+    position: absolute;
+    left: 50%;
+    //transform: translateX(-50%);
+    bottom: calc(var(--element-xs) + 30px);
+    width: 35px;
+    height: auto;
+
+    @include media-breakpoint-up(sm) {
+      bottom: calc(var(--element-sm) + 30px);
+    }
+
+    @include media-breakpoint-up(md) {
+      bottom: calc(var(--element-md) + 30px);
+    }
+
+    @include media-breakpoint-up(lg) {
+      bottom: var(--element-lg);
+    }
+
+    @include media-breakpoint-up(xl) {
+      bottom: var(--element-xl);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      bottom: var(--element-xxl);
+    }
+
+  }
+}
+
+
+#number {
+  position: relative;
+
+  &:before {
+    content: '';
+    display: none;
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1068.6 668' style='enable-background:new 0 0 1068.6 668;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%2360B4A1;%7D .st1%7Bfill:%23E1B9C2;%7D%0A%3C/style%3E%3Cpath id='Path_2' class='st1' d='M0,0v493.8h599.6V668h242.7v-71.2h226.3V0H0z'/%3E%3C/svg%3E");
+    width: 600px;
+    height: calc(600px / 1.6);
+    position: absolute;
+    right: -70px;
+    top: -150px;
+  }
+
+
+  .animated-text-wrapper {
+    padding-top: var(--element-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-top: var(--element-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-top: var(--element-md);
+    }
+
+    @include media-breakpoint-up(lg) {
+      display: block;
+      padding-top: var(--section-lg);
+    }
+
+    @include media-breakpoint-up(xl) {
+      padding-top: var(--section-xl);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      padding-top: var(--section-xxl);
+    }
+  }
+}
+
+#gallery {
+  @include media-breakpoint-down(lg) {
+    .swiper-slide {
+      height: 300px;
+      width: auto;
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
+}
+
+#downloads {
+  text-align: center;
+
+  img {
+    width: 90px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px
+  }
+}
+
+#contacts {
+  text-align: center;
+
+  .card-wrapper {
+    border-top: 1px solid var(--background-color-dark);
+    border-bottom: 1px solid var(--background-color-dark);
+    padding-top: var(--element-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding-top: var(--element-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-top: var(--element-md);
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-top: var(--element-lg);
+    }
+
+    @include media-breakpoint-up(xl) {
+      padding-top: var(--element-xl);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      padding-top: var(--element-xxl);
+    }
+
+    .icon {
+      padding-bottom: calc(var(--element-xs) / 2);
+
+      @include media-breakpoint-up(sm) {
+        padding-bottom: calc(var(--element-sm) / 2);
+      }
+
+      @include media-breakpoint-up(md) {
+        padding-bottom: calc(var(--element-md) / 2);
+      }
+
+      @include media-breakpoint-up(lg) {
+        padding-bottom: calc(var(--element-lg) / 2);
+      }
+
+      @include media-breakpoint-up(xl) {
+        padding-bottom: calc(var(--element-xl) / 2);
+      }
+
+      @include media-breakpoint-up(xxl) {
+        padding-bottom: calc(var(--element-xxl) / 2);
+      }
+    }
+  }
+}

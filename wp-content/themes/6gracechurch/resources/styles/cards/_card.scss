@@ -1,0 +1,107 @@
+.card {
+  height: 100%;
+  position: relative;
+  border: 0;
+
+  &.bg-colour-none {
+    background-color: transparent;
+
+    img {
+      margin-bottom: calc(var(--spacing-element-padding) * var(--spacing-scale-xs));
+
+      @include media-breakpoint-up(sm) {
+        margin-bottom: calc(var(--spacing-element-padding) * var(--spacing-scale-sm));
+      }
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: calc(var(--spacing-element-padding) * var(--spacing-scale-md));
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-bottom: calc(var(--spacing-element-padding) * var(--spacing-scale-lg));
+      }
+
+      @include media-breakpoint-up(xl) {
+        margin-bottom: calc(var(--spacing-element-padding) * var(--spacing-scale-xl));
+      }
+
+      @include media-breakpoint-up(xxl) {
+        margin-bottom: calc(var(--spacing-element-padding) * var(--spacing-scale-xxl));
+      }
+    }
+  }
+
+  .card-meta {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &.card-padding {
+      padding: calc(var(--spacing-element-padding) * var(--spacing-scale-xs));
+
+      @include media-breakpoint-up(sm) {
+        padding: calc(var(--spacing-element-padding) * var(--spacing-scale-sm));
+      }
+
+      @include media-breakpoint-up(md) {
+        padding: calc(var(--spacing-element-padding) * var(--spacing-scale-md));
+      }
+
+      @include media-breakpoint-up(lg) {
+        padding: calc(var(--spacing-element-padding) * var(--spacing-scale-lg));
+      }
+
+      @include media-breakpoint-up(xl) {
+        padding: calc(var(--spacing-element-padding) * var(--spacing-scale-xl));
+      }
+
+      @include media-breakpoint-up(xxl) {
+        padding: calc(var(--spacing-element-padding) * var(--spacing-scale-xxl));
+      }
+    }
+  }
+
+  &.image-as-background {
+    .card-meta {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      &.card-padding {
+        padding: calc(var(--spacing-element-padding) * var(--spacing-scale-xs));
+
+        @include media-breakpoint-up(sm) {
+          padding: calc(var(--spacing-element-padding) * var(--spacing-scale-sm));
+        }
+
+        @include media-breakpoint-up(md) {
+          padding: calc(var(--spacing-element-padding) * var(--spacing-scale-md));
+        }
+
+        @include media-breakpoint-up(lg) {
+          padding: calc(var(--spacing-element-padding) * var(--spacing-scale-lg));
+        }
+
+        @include media-breakpoint-up(xl) {
+          padding: calc(var(--spacing-element-padding) * var(--spacing-scale-xl));
+        }
+
+        @include media-breakpoint-up(xxl) {
+          padding: calc(var(--spacing-element-padding) * var(--spacing-scale-xxl));
+        }
+      }
+    }
+  }
+
+  .info {
+    flex: 1;
+  }
+
+  .button-cta {
+    flex: none;
+    width: 100%;
+    //cursor: pointer;
+  }
+}

@@ -1,0 +1,123 @@
+.card-icon {
+  height: 100%;
+  position: relative;
+  border: 0;
+
+  &.bg-colour-none {
+    background-color: transparent;
+  }
+
+  &.orientation-column {
+    &.card-padding {
+      padding: var(--element-xs);
+
+      @include media-breakpoint-up(sm) {
+        padding: var(--element-sm);
+      }
+
+      @include media-breakpoint-up(md) {
+        padding: var(--element-md);
+      }
+
+      @include media-breakpoint-up(lg) {
+        padding: var(--element-lg);
+      }
+
+      @include media-breakpoint-up(xl) {
+        padding: var(--element-xl);
+      }
+
+      @include media-breakpoint-up(xxl) {
+        padding: var(--element-xxl);
+      }
+    }
+
+    .icon-center {
+      margin: 0 auto;
+    }
+
+    .card-meta {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      &.card-padding {
+        padding: var(--element-xs);
+        padding-bottom: 0;
+
+        @include media-breakpoint-up(sm) {
+          padding: var(--element-sm);
+          padding-bottom: 0;
+        }
+
+        @include media-breakpoint-up(md) {
+          padding: var(--element-md);
+          padding-bottom: 0;
+        }
+
+        @include media-breakpoint-up(lg) {
+          padding: var(--element-lg);
+          padding-bottom: 0;
+        }
+
+        @include media-breakpoint-up(xl) {
+          padding: var(--element-xl);
+          padding-bottom: 0;
+        }
+
+        @include media-breakpoint-up(xxl) {
+          padding: var(--element-xxl);
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    .info {
+      flex: 1;
+    }
+
+    .button-cta {
+      flex: none;
+      width: 100%;
+      //cursor: pointer;
+    }
+  }
+
+  &.orientation-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+
+    img {
+      margin-bottom: 0;
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      padding-left: var(--element-xs);
+
+      @include media-breakpoint-up(sm) {
+        padding-left: var(--element-sm);
+      }
+
+      @include media-breakpoint-up(md) {
+        padding-left: var(--element--md);
+      }
+
+      @include media-breakpoint-up(lg) {
+        padding-left: var(--element-lg);
+      }
+
+      @include media-breakpoint-up(xl) {
+        padding-left: var(--element-xl);
+      }
+
+      @include media-breakpoint-up(xxl) {
+        padding-left: var(--element-xxl);
+      }
+    }
+  }
+}
