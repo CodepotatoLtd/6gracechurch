@@ -1,0 +1,237 @@
+{
+    "key": "group_5ea0a076025c0",
+    "title": "Options",
+    "fields": [
+        {
+            "key": "field_5f22fa20c20f1",
+            "label": "Custom CSS",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f22fa308afbc",
+            "label": "css",
+            "name": "css",
+            "type": "textarea",
+            "instructions": "Use this area to write any custom styles to override classes",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5f68c2c5ceeeb",
+            "label": "Map",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f68c2daceeec",
+            "label": "Map API",
+            "name": "map_api",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f68c316dfb2e",
+            "label": "Map Styles",
+            "name": "map_styles",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5f69c17c98bd6",
+            "label": "Map marker",
+            "name": "map_marker",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5f746652dab69",
+            "label": "Social",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f746c1584f0d",
+            "label": "Social Links",
+            "name": "social_links",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5f746c2c84f0f",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5f746c2c84f0f",
+                    "label": "Name",
+                    "name": "name",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5f746c2784f0e",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5f746c54ae89b",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652731246
+}

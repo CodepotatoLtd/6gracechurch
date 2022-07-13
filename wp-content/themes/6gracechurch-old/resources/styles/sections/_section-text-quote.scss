@@ -1,0 +1,40 @@
+.section-text-quote {
+  overflow: hidden;
+  position: relative;
+
+  .quote {
+    padding-bottom: 500px;
+
+    @include media-breakpoint-down(lg) {
+      position: relative;
+    }
+  }
+
+  .triangles {
+    position: absolute;
+
+    width: calc(100% + 40px);
+    height: 100%;
+    left: -20px;
+    top: 0;
+
+
+    @include media-breakpoint-up(lg) {
+      width: 50vw;
+      height: 100%;
+      left: auto;
+      top: auto;
+      right: 0;
+      bottom: 0;
+    }
+    background: var(--background-color-secondary-alt);
+
+    svg {
+      width: 80%;
+      height: auto;
+      position: absolute;
+      right: 0;
+      bottom: -8vw;
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+    "key": "group_61a9c6b6bc45c",
+    "title": "-- 7 -- layout -- FS Split text and image",
+    "fields": [
+        {
+            "key": "field_61a9c6b6edace",
+            "label": "Content",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_61a9c6b6edae5",
+            "label": "Text",
+            "name": "text",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "45",
+                "class": "accordion-group-style-no-label",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61a9c6b6f3559",
+                    "label": "Text Position",
+                    "name": "text_position",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "choices": {
+                        "left": "left",
+                        "right": "right"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6233a030e64a9",
+                    "label": "Vertical Position",
+                    "name": "vertical_position",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "choices": {
+                        "top": "top",
+                        "center": "center"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "default_value": "center",
+                    "layout": "horizontal",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_61a9c6b6f3561",
+                    "label": "Text",
+                    "name": "text",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "no-label",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0
+                }
+            ]
+        },
+        {
+            "key": "field_61a9c6b6edaea",
+            "label": "Image",
+            "name": "image",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "accordion-group-style-no-label",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61a9c6b70782f",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "no-label",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "acf-split-header-image",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_61a9c6b6edaf2",
+            "label": "Section Options",
+            "name": "section_options",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_601ecc32e84b6"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_61a9c6b6edafd",
+            "label": "Section Background",
+            "name": "section_background",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_601f142205e8b"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652730358
+}

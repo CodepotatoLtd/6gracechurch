@@ -1,0 +1,160 @@
+{
+    "key": "group_6028464c504a7",
+    "title": "Options - Cards",
+    "fields": [
+        {
+            "key": "field_6028464c5ca5a",
+            "label": "Card Settings",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_6028464c5ca62",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "acf-clear small-label",
+                "id": ""
+            },
+            "message": "Shadow",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_6028464c5ca69",
+            "label": "Shadow",
+            "name": "card_shadow",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "21",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "5px 5px 5px rgba(0,0,0,0.4)",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6028464c5ca71",
+            "label": "Shadow Hover",
+            "name": "card_shadow_hover",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "21",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "5px 5px 5px rgba(0,0,0,0.7)",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_602846af3d8bf",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "acf-clear small-label",
+                "id": ""
+            },
+            "message": "Opacity",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_602846e6b0c7d",
+            "label": "Opacity",
+            "name": "card_opacity",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "21",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_602846f3b0c7e",
+            "label": "Opacity Hover",
+            "name": "card_opacity_hover",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "21",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-cards"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652731284
+}

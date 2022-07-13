@@ -1,0 +1,38 @@
+.section-process-carousel {
+  overflow: hidden;
+  position: relative;
+
+  .carousel-column {
+    position: relative;
+
+    &:before {
+      background: #8290A2;
+      position: absolute;
+      top: -200px;
+      left: 70vw;
+      width: 80vw;
+      height: calc(100% + 400px);
+      content: "";
+      z-index: 1;
+
+      @include media-breakpoint-up(lg) {
+        left: 440px;
+      }
+    }
+  }
+
+  .swiper-container {
+    overflow: visible;
+  }
+
+  .swiper-slide {
+    height: 450px;
+    width: auto;
+    text-align: left;
+
+    .slide-number {
+      margin-bottom: 10px;
+      color: #62E8B9;
+    }
+  }
+}

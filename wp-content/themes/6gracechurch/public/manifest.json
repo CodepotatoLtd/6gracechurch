@@ -1,14 +1,16 @@
 {
-  "app.css": "app.c1c4f7.css",
-  "app.js": "app.e8b1b8.js",
-  "editor.css": "editor.31d6cf.css",
-  "editor.js": "editor.5f39da.js",
-  "runtime.js": "runtime.194772.js",
-  "vendor/app.js": "vendor/app.41d35f.js",
-  "fonts/HKGrotesk-Light.woff": "fonts/HKGrotesk-Light.e40498.woff",
-  "fonts/HKGrotesk-Medium.woff": "fonts/HKGrotesk-Medium.35d573.woff",
-  "fonts/HKGrotesk-Regular.woff": "fonts/HKGrotesk-Regular.11b821.woff",
-  "fonts/HKGrotesk-Light.woff2": "fonts/HKGrotesk-Light.4b19da.woff2",
-  "fonts/HKGrotesk-Medium.woff2": "fonts/HKGrotesk-Medium.ba30a4.woff2",
-  "fonts/HKGrotesk-Regular.woff2": "fonts/HKGrotesk-Regular.73de51.woff2"
+  "app.js": "app.js",
+  "editor.js": "editor.js",
+  "vendor/bud.app.editor.js": "vendor/bud.app.editor.js",
+  "vendor/app.js": "vendor/app.js",
+  "fonts/TTNormsProBd.woff": "fonts/TTNormsProBd.woff",
+  "fonts/TTNormsProRg.woff": "fonts/TTNormsProRg.woff",
+  "fonts/TTNormsProMd.woff": "fonts/TTNormsProMd.woff",
+  "fonts/TTNormsProBd.woff2": "fonts/TTNormsProBd.woff2",
+  "fonts/TTNormsProRg.woff2": "fonts/TTNormsProRg.woff2",
+  "fonts/TTNormsProMd.woff2": "fonts/TTNormsProMd.woff2",
+  ".gitkeep": ".gitkeep",
+  "app.js.map": "vendor/app.js.map",
+  "editor.js.map": "editor.js.map",
+  "bud.app.editor.js.map": "vendor/bud.app.editor.js.map"
 }

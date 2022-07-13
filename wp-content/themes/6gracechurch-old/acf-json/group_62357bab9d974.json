@@ -1,0 +1,831 @@
+{
+    "key": "group_62357bab9d974",
+    "title": "Options - Colours Carousel",
+    "fields": [
+        {
+            "key": "field_62357babce30e",
+            "label": "Text",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62357babce315",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "small-label",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62357babce31e",
+            "label": "Fill",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62357babce326",
+            "label": "Border",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62357babce32d",
+            "label": "Fill Active",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62357babce335",
+            "label": "Border Active",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62357babce33c",
+            "label": "Fill Hover",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62357babce344",
+            "label": "Fill Border",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62357babce34c",
+            "label": "Black",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "small-label acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62357babce353",
+            "label": "Carousel Fill",
+            "name": "carousel_fill_b",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(0,0,0,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357babce35b",
+            "label": "Carousel Border",
+            "name": "carousel_border_b",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(0,0,0,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357babce363",
+            "label": "Fill Hover",
+            "name": "carousel_fill_hover_b",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#000000",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_62357babce36b",
+            "label": "Border Hover",
+            "name": "carousel_border_hover_b",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(0,0,0,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357babce373",
+            "label": "Fill Active",
+            "name": "carousel_fill_active_b",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(0,0,0,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357babce37a",
+            "label": "Border Active",
+            "name": "carousel_border_active_b",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(0,0,0,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357babce382",
+            "label": "White",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "small-label acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62357e82975a2",
+            "label": "Carousel Fill",
+            "name": "carousel_fill_w",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357e84975a3",
+            "label": "Carousel Border",
+            "name": "carousel_border_w",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357e86975a4",
+            "label": "Fill Hover",
+            "name": "carousel_fill_hover_w",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357e8b975a5",
+            "label": "Border Hover",
+            "name": "carousel_border_hover_w",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357e8d975a6",
+            "label": "Fill Active",
+            "name": "carousel_fill_active_w",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357e90975a7",
+            "label": "Border Active",
+            "name": "carousel_border_active_w",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357babce3b8",
+            "label": "Dark",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "small-label acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62358199334b2",
+            "label": "Carousel Fill",
+            "name": "carousel_fill_d",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(0,0,0,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_6235819c334b3",
+            "label": "Carousel Border",
+            "name": "carousel_border_d",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(0,0,0,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_6235819f334b4",
+            "label": "Fill Hover",
+            "name": "carousel_fill_hover_d",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#000000",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_623581a1334b5",
+            "label": "Border Hover",
+            "name": "carousel_border_hover_d",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(0,0,0,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_623581a4334b6",
+            "label": "Fill Active",
+            "name": "carousel_fill_active_d",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(0,0,0,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_623581a7334b7",
+            "label": "Border Active",
+            "name": "carousel_border_active_d",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(0,0,0,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62357babce3ee",
+            "label": "Light",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "small-label acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_623583374d736",
+            "label": "Carousel Fill",
+            "name": "carousel_fill_l",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_6235833a4d737",
+            "label": "Carousel Border",
+            "name": "carousel_border_l",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_6235833d4d738",
+            "label": "Fill Hover",
+            "name": "carousel_fill_hover_l",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_6235833f4d739",
+            "label": "Border Hover",
+            "name": "carousel_border_hover_l",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_623583424d73a",
+            "label": "Fill Active",
+            "name": "carousel_fill_active_l",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_623583444d73b",
+            "label": "Border Active",
+            "name": "carousel_border_active_l",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "rgba(255,255,255,1)",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_62359b12d61a7",
+            "label": "Pagination Sizes",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "small-label acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62359b1fd61a8",
+            "label": "Pagination Size",
+            "name": "carousel_pagination_size",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "12px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62359b36d61a9",
+            "label": "Pagination Border",
+            "name": "carousel_pagination_border",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "2px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62362ff77c476",
+            "label": "Margin",
+            "name": "carousel_pagination_margin",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "4px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62359c302eb98",
+            "label": "Offset Bottom",
+            "name": "carousel_pagination_offset_bottom",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "15px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62359e0e843db",
+            "label": "Navigation Sizes",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "small-label acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_62359c222eb95",
+            "label": "Nav Width",
+            "name": "carousel_nav_width",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "27px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62359c242eb96",
+            "label": "Nav Height",
+            "name": "carousel_nav_height",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "44px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62359da97db9e",
+            "label": "Nav Thickness",
+            "name": "carousel_nav_thickness",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": 4,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62359c262eb97",
+            "label": "Nav Offset",
+            "name": "carousel_nav_offset",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "10px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-carousels"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652731301
+}

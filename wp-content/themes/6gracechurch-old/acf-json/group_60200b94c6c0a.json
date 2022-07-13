@@ -1,0 +1,512 @@
+{
+    "key": "group_60200b94c6c0a",
+    "title": "Options  - Image Sizes",
+    "fields": [
+        {
+            "key": "field_5f4df861f893e",
+            "label": "Image sizes",
+            "name": "image_sizes",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f4df6d3892a3",
+                    "label": "Card Image W",
+                    "name": "card_image_w",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 770,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4df6e1892a4",
+                    "label": "Card Image H",
+                    "name": "card_image_h",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 540,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4dfbdf1db7c",
+                    "label": "Icon Image W",
+                    "name": "icon_image_w",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 400,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4dfbde1db7b",
+                    "label": "Icon Image H",
+                    "name": "icon_image_h",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 400,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4df888393e1",
+                    "label": "Text Image W Landscape",
+                    "name": "text_image_w",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 800,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4df88b393e2",
+                    "label": "Text Image H Landscape",
+                    "name": "text_image_h",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 450,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_602c342880b2f",
+                    "label": "Text Image W Portrait",
+                    "name": "text_image_w_portrait",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 450,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_602c343680b30",
+                    "label": "Text Image H Portrait",
+                    "name": "text_image_h_portrait",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 800,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4dfbce1db77",
+                    "label": "Large Header Image W",
+                    "name": "large_header_image_w",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1920,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4dfbd21db78",
+                    "label": "Large Header Image H",
+                    "name": "large_header_image_h",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 980,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4dfbda1db7a",
+                    "label": "Team Profile Image W",
+                    "name": "team_profile_image_w",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 500,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4dfbd71db79",
+                    "label": "Team Profile Image H",
+                    "name": "team_profile_image_h",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 500,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4e088b6eb27",
+                    "label": "Logo Image W",
+                    "name": "logo_image_w",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 500,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5f4e088e6eb28",
+                    "label": "Logo Image H",
+                    "name": "logo_image_h",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 200,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_605c6512d837a",
+                    "label": "Gallery W",
+                    "name": "gallery_w",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_605c651ed837b",
+                    "label": "Gallery H",
+                    "name": "gallery_h",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_6283fc771b674",
+                    "label": "Floor Gallery W",
+                    "name": "floor_gallery_w",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_6283fc871b675",
+                    "label": "Floor Gallery H",
+                    "name": "floor_gallery_h",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_60a8c61a40967",
+                    "label": "Gallery & Text W",
+                    "name": "gallery_text_w",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_60a8c63040968",
+                    "label": "Gallery & Text H",
+                    "name": "gallery_text_h",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_6085cc2de0a91",
+                    "label": "Split H W",
+                    "name": "split_h_w",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 640,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_6085cc31e0a92",
+                    "label": "Split H H",
+                    "name": "split_h_h",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1080,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-image-sizes"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652817056
+}

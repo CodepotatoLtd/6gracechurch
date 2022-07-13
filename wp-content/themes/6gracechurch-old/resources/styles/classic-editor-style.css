@@ -1,0 +1,28 @@
+body#tinymce .button-cta  a {
+  width: auto;
+  background: #62E8B9;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 30px 8px 30px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+body#tinymce h1, body#tinymce h2, body#tinymce h3, body#tinymce h4, body#tinymce h5 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+}
+
+body#tinymce p {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+}
+
+

@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v10.1.1',
-        'version' => '10.1.1.0',
+        'pretty_version' => 'v10.1.7',
+        'version' => '10.1.7.0',
         'type' => 'wordpress-theme',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,8 +11,8 @@
     ),
     'versions' => array(
         'roots/sage' => array(
-            'pretty_version' => 'v10.1.1',
-            'version' => '10.1.1.0',
+            'pretty_version' => 'v10.1.7',
+            'version' => '10.1.7.0',
             'type' => 'wordpress-theme',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -1,0 +1,139 @@
+.card-process {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  text-align: left;
+  height: 425px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 330px;
+
+  @include media-breakpoint-up(lg) {
+    width: 390px;
+    padding: 40px;
+  }
+
+  img {
+    height: 130px;
+    width: auto;
+    margin-bottom: 24px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .info {
+    margin-top: auto;
+    min-height: 190px;
+
+    p {
+      margin-bottom: 0;
+    }
+
+  }
+
+  &.apply-now {
+    cursor: pointer;
+
+    .button-cta {
+      text-decoration: none;
+      width: auto;
+      -webkit-transition: all $transition*2 ease-out;
+      -moz-transition: all $transition*2 ease-out;
+      -ms-transition: all $transition*2 ease-out;
+      -o-transition: all $transition*2 ease-out;
+      transition: all $transition*2 ease-out;
+      background-color: var(--background-color-primary);
+      color: #fff;
+      display: inline-block;
+      line-height: 1.5;
+      //padding: var(--button-padding);
+      font-weight: var(--button-font-weight);
+      text-transform: var(--button-text-transform);
+      font-family: var(--font-buttons);
+
+      /* colours */
+
+      // background: var(--button-fill-color);
+      //color: var(--button-text-color);
+      -webkit-box-shadow: var(--button-border-shadow);
+      -moz-box-shadow: var(--button-border-shadow);
+      box-shadow: var(--button-border-shadow);
+      padding: calc(var(--button-padding-top) * var(--button-scale-xs)) calc(var(--button-padding-right) * var(--button-scale-xs)) calc(var(--button-padding-bottom) * var(--button-scale-xs)) calc(var(--button-padding-left) * var(--button-scale-xs));
+      -webkit-border-radius: calc(var(--button-border-radius) * var(--button-scale-xs));
+      -moz-border-radius: calc(var(--button-border-radius) * var(--button-scale-xs));
+      border-radius: calc(var(--button-border-radius) * var(--button-scale-xs));
+      //  border: calc(var(--button-border-size) * var(--button-scale-xs)) solid  var(--button-border-color);
+      font-size: calc(var(--button-font-size) * var(--button-scale-xs));
+      letter-spacing: calc(var(--button-letter-spacing) * var(--button-scale-xs));
+
+      @include media-breakpoint-up(sm) {
+        padding: calc(var(--button-padding-top) * var(--button-scale-sm)) calc(var(--button-padding-right) * var(--button-scale-sm)) calc(var(--button-padding-bottom) * var(--button-scale-sm)) calc(var(--button-padding-left) * var(--button-scale-sm));
+        -webkit-border-radius: calc(var(--button-border-radius) * var(--button-scale-sm));
+        -moz-border-radius: calc(var(--button-border-radius) * var(--button-scale-sm));
+        border-radius: calc(var(--button-border-radius) * var(--button-scale-sm));
+        //border: calc(var(--button-border-size) * var(--button-scale-sm)) solid  var(--button-border-color);
+        font-size: calc(var(--button-font-size) * var(--button-scale-sm));
+        letter-spacing: calc(var(--button-letter-spacing) * var(--button-scale-sm));
+      }
+
+      @include media-breakpoint-up(md) {
+        padding: calc(var(--button-padding-top) * var(--button-scale-md)) calc(var(--button-padding-right) * var(--button-scale-md)) calc(var(--button-padding-bottom) * var(--button-scale-md)) calc(var(--button-padding-left) * var(--button-scale-md));
+        -webkit-border-radius: calc(var(--button-border-radius) * var(--button-scale-md));
+        -moz-border-radius: calc(var(--button-border-radius) * var(--button-scale-md));
+        border-radius: calc(var(--button-border-radius) * var(--button-scale-md));
+        //border: calc(var(--button-border-size) * var(--button-scale-md)) solid  var(--button-border-color);
+        font-size: calc(var(--button-font-size) * var(--button-scale-md));
+        letter-spacing: calc(var(--button-letter-spacing) * var(--button-scale-md));
+      }
+
+      @include media-breakpoint-up(lg) {
+        padding: calc(var(--button-padding-top) * var(--button-scale-lg)) calc(var(--button-padding-right) * var(--button-scale-lg)) calc(var(--button-padding-bottom) * var(--button-scale-lg)) calc(var(--button-padding-left) * var(--button-scale-lg));
+        -webkit-border-radius: calc(var(--button-border-radius) * var(--button-scale-lg));
+        -moz-border-radius: calc(var(--button-border-radius) * var(--button-scale-lg));
+        border-radius: calc(var(--button-border-radius) * var(--button-scale-lg));
+        //border: calc(var(--button-border-size) * var(--button-scale-lg)) solid  var(--button-border-color);
+        font-size: calc(var(--button-font-size) * var(--button-scale-lg));
+        letter-spacing: calc(var(--button-letter-spacing) * var(--button-scale-lg));
+      }
+
+      @include media-breakpoint-up(xl) {
+        padding: calc(var(--button-padding-top) * var(--button-scale-xl)) calc(var(--button-padding-right) * var(--button-scale-xl)) calc(var(--button-padding-bottom) * var(--button-scale-xl)) calc(var(--button-padding-left) * var(--button-scale-xl));
+        -webkit-border-radius: calc(var(--button-border-radius) * var(--button-scale-xl));
+        -moz-border-radius: calc(var(--button-border-radius) * var(--button-scale-xl));
+        border-radius: calc(var(--button-border-radius) * var(--button-scale-xl));
+        //border: calc(var(--button-border-size) * var(--button-scale-xl)) solid  var(--button-border-color);
+        font-size: calc(var(--button-font-size) * var(--button-scale-xl));
+        letter-spacing: calc(var(--button-letter-spacing) * var(--button-scale-xl));
+      }
+
+      @include media-breakpoint-up(xxl) {
+        padding: calc(var(--button-padding-top) * var(--button-scale-xxl)) calc(var(--button-padding-right) * var(--button-scale-xxl)) calc(var(--button-padding-bottom) * var(--button-scale-xxl)) calc(var(--button-padding-left) * var(--button-scale-xxl));
+        -webkit-border-radius: calc(var(--button-border-radius) * var(--button-scale-xxl));
+        -moz-border-radius: calc(var(--button-border-radius) * var(--button-scale-xxl));
+        border-radius: calc(var(--button-border-radius) * var(--button-scale-xxl));
+        //border: calc(var(--button-border-size) * var(--button-scale-xxl)) solid var(--button-border-color);
+        font-size: calc(var(--button-font-size) * var(--button-scale-xxl));
+        letter-spacing: calc(var(--button-letter-spacing) * var(--button-scale-xxl));
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &.submit {
+        margin-bottom: $spacing/2;
+      }
+    }
+
+    &:hover {
+      opacity: 0.9;
+
+      .button-cta {
+        background-color: #fff;
+        color: var(--background-color-primary)#fff;
+      }
+    }
+  }
+}

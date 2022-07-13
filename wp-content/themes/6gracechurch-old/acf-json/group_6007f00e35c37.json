@@ -1,0 +1,201 @@
+{
+    "key": "group_6007f00e35c37",
+    "title": "-- 0 -- sb -- 0 a -- header",
+    "fields": [
+        {
+            "key": "field_6007f00e37e27",
+            "label": "Section options",
+            "name": "section_options",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_5f3f8a252dcc5"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_6007f00e37e31",
+            "label": "Content",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "small-label acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_6007f00e37e35",
+            "label": "Logo",
+            "name": "logo_group",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "45",
+                "class": "acf-group-style",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6007f00e3c150",
+                    "label": "Logo Text 1",
+                    "name": "logo_text_1",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "no-label",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "full",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_6007f1bc48de0",
+                    "label": "Logo Text 1",
+                    "name": "Logo Text 1",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "no-label",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "full",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6007f00e37e3d",
+            "label": "Image",
+            "name": "image",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "45",
+                "class": "acf-group-style",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6007f00e3e5b2",
+                    "label": "Landscape",
+                    "name": "landscape",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "full",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_6007f03679928",
+                    "label": "portrait",
+                    "name": "portrait",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "full",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "category"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652726904
+}

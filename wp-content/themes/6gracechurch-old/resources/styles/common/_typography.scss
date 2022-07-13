@@ -1,0 +1,88 @@
+:root {
+  /* --font-headings: "mabry-bold", sans-serif;
+  --font-copy: "mabry-regular'", sans-serif;
+  --font-nav: "mabry-bold", sans-serif;
+  --font-buttons: "mabry-bold", sans-serif;
+  --font-quotes: "mabry-bold", sans-serif;
+  --font-cite: "mabry-regular'", sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: var(--font-headings);
+}
+
+body,
+p,
+ol,
+ul {
+  font-family: var(--font-copy);
+}
+
+blockquote {
+  p {
+    font-family: var(--font-quotes);
+  }
+
+  cite {
+    font-family: var(--font-cite);
+  }
+}
+
+body,
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hr-short {
+  width: 4.2rem;
+}
+
+h1 {
+  .sub-heading {
+    text-transform: none;
+    font-size: 50%;
+    display: block;
+  }
+}
+
+h2 {
+  .sub-heading {
+    text-transform: none;
+    font-size: 50%;
+    display: block;
+  }
+}
+
+h3 {
+  .sub-heading {
+    text-transform: none;
+    font-size: 80%;
+    padding-top: 5px;
+    display: block;
+  }
+}
+
+h4 {
+  .sub-heading {
+    text-transform: none;
+    font-size: 80%;
+    padding-top: 5px;
+    display: block;
+  }
+}
+
+.font-italic p {
+  font-style: italic !important;
+}

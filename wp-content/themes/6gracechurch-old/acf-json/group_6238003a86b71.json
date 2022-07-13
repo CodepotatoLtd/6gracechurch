@@ -1,0 +1,971 @@
+{
+    "key": "group_6238003a86b71",
+    "title": "Options - Nav",
+    "fields": [
+        {
+            "key": "field_6238006f60cd6",
+            "label": "Logo",
+            "name": "logo",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_627c02499e107",
+            "label": "Mobile Banner",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_627c021980e4f",
+            "label": "mobile-banner-height",
+            "name": "mobile-banner-height",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "70px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c01f380e4e",
+            "label": "mobile-banner-background",
+            "name": "mobile-banner-background",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#fffffff",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_627c08cbe289d",
+            "label": "mobile-menu-dropdown-background",
+            "name": "mobile-menu-dropdown-background",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#fffffff",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_627c048e912b8",
+            "label": "mobile-banner-shadow",
+            "name": "mobile-banner-shadow",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "none",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c0466fb89b",
+            "label": "mobile-banner-logo-v-padding",
+            "name": "mobile-banner-logo-v-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "10px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c1fc1655b2",
+            "label": "mobile-banner-logo-h-padding",
+            "name": "mobile-banner-logo-h-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "10px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c10d6ba1ba",
+            "label": "Toggle",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_627c10e05016d",
+            "label": "mobile-nav-toggle-width",
+            "name": "mobile-nav-toggle-width",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "40px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c10ec57408",
+            "label": "mobile-nav-toggle-height",
+            "name": "mobile-nav-toggle-height",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "28px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c10ee57409",
+            "label": "mobile-nav-toggle-thickness",
+            "name": "mobile-nav-toggle-thickness",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "14%",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c10ef5740a",
+            "label": "mobile-nav-toggle-offset",
+            "name": "mobile-nav-toggle-offset",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "43%",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c10f05740b",
+            "label": "mobile-nav-toggle-colour",
+            "name": "mobile-nav-toggle-colour",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#f0f",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_6282b4c5341d1",
+            "label": "mobile-nav-toggle-open-colour",
+            "name": "mobile-nav-toggle-open-colour",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#f0f",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_627c0286493d8",
+            "label": "Banner",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_627c03f9ad832",
+            "label": "banner-height",
+            "name": "banner-height",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "90px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c02b1d954d",
+            "label": "banner-background",
+            "name": "banner-background",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#fffffff",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_627c044ab519b",
+            "label": "banner-shadow",
+            "name": "banner-shadow",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "none",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c047803194",
+            "label": "banner-logo-v-padding",
+            "name": "banner-logo-v-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "10px",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c04abe8156",
+            "label": "Banner",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_627c02cd008f2",
+            "label": "banner-background-hover",
+            "name": "banner-background-hover",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#ff0000",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_627c02e00ade4",
+            "label": "banner-background-active",
+            "name": "banner-background-active",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#ffffff",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_627c02f115267",
+            "label": "banner-text-colour",
+            "name": "banner-text-colour",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#000000",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_627c030315268",
+            "label": "banner-hover-colour",
+            "name": "banner-hover-colour",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#ff0000",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_627c031595cb2",
+            "label": "banner-active-colour",
+            "name": "banner-active-colour",
+            "type": "extended-color-picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "#ff00ff",
+            "color_palette": "",
+            "hide_palette": 0
+        },
+        {
+            "key": "field_627c056f26fa8",
+            "label": "Banner Text",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_627c0580b5b24",
+            "label": "banner-font-weight",
+            "name": "banner-font-weight",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": 400,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c058db5b25",
+            "label": "banner-letter-spacing",
+            "name": "banner-letter-spacing",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "normal",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c0596b5b26",
+            "label": "banner-text-transform",
+            "name": "banner-text-transform",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "none",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c065b39305",
+            "label": "Banner Text Size",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_627c066939306",
+            "label": "banner-link-xs-text-size",
+            "name": "banner-link-xs-text-size",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c06a8abccd",
+            "label": "banner-link-sm-text-size",
+            "name": "banner-link-sm-text-size",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c06aaabcce",
+            "label": "banner-link-md-text-size",
+            "name": "banner-link-md-text-size",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c06acabccf",
+            "label": "banner-link-lg-text-size",
+            "name": "banner-link-lg-text-size",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c06adabcd0",
+            "label": "banner-link-xl-text-size",
+            "name": "banner-link-xl-text-size",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c06b1abcd1",
+            "label": "banner-link-xxl-text-size",
+            "name": "banner-link-xxl-text-size",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c076ce269e",
+            "label": "Banner H Padding",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_627c0777995e4",
+            "label": "banner-link-xs-h-padding",
+            "name": "banner-link-xs-h-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c079b83f48",
+            "label": "banner-link-sm-h-padding",
+            "name": "banner-link-sm-h-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c079d83f49",
+            "label": "banner-link-md-h-padding",
+            "name": "banner-link-md-h-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c079e83f4a",
+            "label": "banner-link-lg-h-padding",
+            "name": "banner-link-lg-h-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c079f83f4b",
+            "label": "banner-link-xl-h-padding",
+            "name": "banner-link-xl-h-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c07a183f4c",
+            "label": "banner-link-xxl-h-padding",
+            "name": "banner-link-xxl-h-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c07e66a9de",
+            "label": "Banner V Padding",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "10",
+                "class": "acf-clear",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_627c07f3c21b2",
+            "label": "banner-link-xs-v-padding",
+            "name": "banner-link-xs-v-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c08011e128",
+            "label": "banner-link-sm-v-padding",
+            "name": "banner-link-sm-v-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c08031e129",
+            "label": "banner-link-md-v-padding",
+            "name": "banner-link-md-v-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c08051e12a",
+            "label": "banner-link-lg-v-padding",
+            "name": "banner-link-lg-v-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c08071e12b",
+            "label": "banner-link-xl-v-padding",
+            "name": "banner-link-xl-v-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_627c08081e12c",
+            "label": "banner-link-xxl-v-padding",
+            "name": "banner-link-xxl-v-padding",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label",
+                "id": ""
+            },
+            "default_value": "1rem",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-nav"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652733142
+}

@@ -1,0 +1,40 @@
+.modal-lg {
+  max-width: 650px;
+
+  .modal-title {
+    h3,
+    .h3 {
+      margin: 0;
+      font-size: var(--text-size-medium-h3-xs) !important;
+      line-height: var(--text-size-medium-h3-lh) !important;
+      letter-spacing: var(--text-size-medium-h3-ls) !important;
+      font-weight: var(--text-size-medium-h3-w) !important;
+      text-transform: var(--text-size-medium-h3-t) !important;
+      padding-bottom: 0 !important;
+
+      @include media-breakpoint-up(sm) {
+        font-size: var(--text-size-medium-h3-sm) !important;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: var(--text-size-medium-h3-md) !important;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: var(--text-size-medium-h3-lg) !important;
+      }
+
+      @include media-breakpoint-up(xl) {
+        font-size: var(--text-size-medium-h3-xl) !important;
+      }
+
+      @include media-breakpoint-up(xxl) {
+        font-size: var(--text-size-medium-h3-xxl) !important;
+      }
+    }
+  }
+}
+
+#modal-form .modal-body  {
+  padding-top: 0  !important;
+}

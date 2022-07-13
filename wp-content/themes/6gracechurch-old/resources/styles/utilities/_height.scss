@@ -1,0 +1,43 @@
+.h-auto-mobile {
+  @include media-breakpoint-down(lg) {
+    height: auto;
+  }
+}
+
+.h-fullscreen-mobile {
+  @include media-breakpoint-down(lg) {
+    height: 100vh;
+  }
+}
+
+.h-auto-mobile {
+  @include media-breakpoint-up(lg) {
+    height: auto;
+  }
+}
+
+.h-fullscreen-desktop {
+  @include media-breakpoint-up(lg) {
+    height: 100vh;
+  }
+}
+
+.h-fullscreen-minus-nav {
+  height: calc(100vh - var(--mobile-banner-height));
+}
+
+.h-fullscreen-minus-nav-desktop {
+  @include media-breakpoint-up(lg) {
+    height: calc(100vh - var(--banner-height));
+  }
+}
+
+.full-height {
+  height: 100%;
+}
+
+.inner {
+  position: relative;
+  height: 100%;
+}
+

@@ -54,15 +54,13 @@ try {
 |
 */
 
+add_editor_style('resources/styles/classic-editor-style.css');
+
 collect(['setup',
         'filters',
-        'includes/acf-admin-classes',
-        'includes/gutenberg',
-        'includes/image-sizes',
-        'includes/options',
-        'includes/theme-options-acf-functions-from-group',
-        'includes/text-formats',
-    ])
+        'includes/custom-posts',
+        'includes/text-formats'
+        ])
     ->each(function ($file) {
         if (! locate_template($file = "app/{$file}.php", true, true)) {
             wp_die(
@@ -86,19 +84,10 @@ collect(['setup',
 
 add_theme_support('sage');
 
-//include "includes/options.php";
-
-
-add_filter('acf/settings/save_json', 'my_acf_json_save_point');
-
-function my_acf_json_save_point($path)
-{
-    // update path
-    $path = get_stylesheet_directory(). '/acf-json';
-
-    // return
-    return $path;
-
+if (function_exists('acf_add_options_page')) {
+    acf_add_options_page(array(
+        'page_title'    => 'Site Options',
+        'menu_title'    => 'Site Options',
+        'menu_slug'     => 'theme-site-options',
+    ));
 }
-
-

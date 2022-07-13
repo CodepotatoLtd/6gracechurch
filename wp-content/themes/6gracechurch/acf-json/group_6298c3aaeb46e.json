@@ -1,0 +1,91 @@
+{
+    "key": "group_6298c3aaeb46e",
+    "title": "Testimonial Post",
+    "fields": [
+        {
+            "key": "field_6298c3b35c806",
+            "label": "Testimonial",
+            "name": "testimonial",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_6298c3eb5c807",
+            "label": "Company",
+            "name": "company",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6298c3f65c808",
+            "label": "Location",
+            "name": "location",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "testimonials"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1654248846
+}

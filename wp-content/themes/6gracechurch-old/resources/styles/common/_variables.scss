@@ -1,0 +1,31 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$transition: 0.2s;
+$spacing: 30px;
+$theme-colors: (
+  primary: #525ddc
+);
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+$grid-gutter-width:           30px !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl:1800px,
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl:1640px,
+) !default;

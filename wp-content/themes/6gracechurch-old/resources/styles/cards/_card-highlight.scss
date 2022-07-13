@@ -1,0 +1,24 @@
+.card-highlight {
+  margin-bottom: 55px;
+  padding-right: 30px;
+
+
+  img {
+    height: 120px;
+
+    @include media-breakpoint-up(lg) {
+      height: 100px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      height: 120px;
+    }
+
+    width: auto;
+    margin-bottom: 24px;
+  }
+
+  .info {
+    max-width: 420px;
+  }
+}

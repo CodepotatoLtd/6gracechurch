@@ -1,0 +1,59 @@
+@import "fonts/fonts";
+@import "~bootstrap/scss/functions";
+@import "common/variables";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/bootstrap";
+
+@import "~aos/src/sass/aos";
+/** Import everything from autoload */
+@import "autoload/swiper";
+
+@import "common/bg-colors";
+@import "common/global";
+@import "common/text-colors";
+@import "common/buttons";
+@import "common/carousel-settings";
+@import "common/down-arrow";
+@import "common/text-size-footer";
+@import "common/text-size-large";
+@import "common/text-size-medium";
+@import "common/text-size-small";
+@import "common/text-size-x-large";
+@import "common/typography";
+@import "common/vertical-spacing";
+@import "common/spacing-mobile";
+@import "common/spacing-desktop";
+@import "utilities/height";
+@import "utilities/align";
+@import "utilities/background";
+@import "utilities/header-burger-menu";
+//@import "utilities/header-banner-burger-menu";
+@import "utilities/container";
+@import "cards/card";
+@import "cards/card-icon";
+@import "cards/card-download";
+@import "headers/header-image";
+@import "headers/header-gy-home";
+@import "footers/section-lower-footer";
+@import "sections/section";
+@import "sections/section-text-image";
+@import "sections/section-text-image-50-50";
+@import "sections/section-gallery";
+@import "sections/section-gallery-grid";
+@import "sections/section-svg-map";
+@import "sections/_section-floor-selector";
+@import "sections/_section-floor-gallery";
+@import "sections/_section-table";
+@import "sections/_section-fullscreen-map";
+@import "theseven";
+
+body {
+  p{
+    //color:#f00;
+  }
+}
+
+body, html {
+  background: var(--theme-background-colour);
+}
+

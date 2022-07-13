@@ -1,0 +1,279 @@
+:root {
+  /* --spacing-section-padding: 15rem; */
+  --section-xs: 2.625rem;
+  --section-sm: 2.625rem;
+  --section-md: 2.625rem;
+  --section-lg: 6.875rem;
+  --section-xl: 6.875rem;
+  --section-xxl: 6.875rem;
+
+  --intro-xs:  3.4375rem;
+  --intro-sm:  3.4375rem;
+  --intro-md:  3.4375rem;
+  --intro-lg:  3.4375rem;
+  --intro-xl:  3.4375rem;
+  --intro-xxl: 3.4375rem;
+
+  --element-xs:   2rem;
+  --element-sm: 2rem;
+  --element-md: 2rem;
+  --element-lg: 2rem;
+  --element-xl: 2rem;
+  --element-xxl: 2rem;
+}
+
+.no-top-padding {
+  padding-top: 0;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
+.padding-top-none {
+  padding-top: 0;
+}
+
+.padding-bottom-none {
+  padding-bottom: 0;
+}
+
+.padding-top-section {
+  padding-top: var(--section-xs);
+
+  @include media-breakpoint-up(sm) {
+    padding-top: var(--section-sm);
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-top: var(--section-md);
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: var(--section-lg);
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding-top: var(--section-xl);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    padding-top: var(--section-xxl);
+  }
+}
+
+.padding-bottom-section {
+  padding-bottom: var(--section-xs);
+
+  @include media-breakpoint-up(sm) {
+    padding-bottom: var(--section-sm);
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: var(--section-md);
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-bottom: var(--section-lg);
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding-bottom: var(--section-xl);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    padding-bottom: var(--section-xxl);
+  }
+}
+
+.padding-top-intro {
+  padding-top: var(--intro-xs);
+
+  @include media-breakpoint-up(sm) {
+    padding-top: var(---intro-sm);
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-top: var(--intro-md);
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: var(--intro-lg);
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding-top: var(--intro-xl);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    padding-top: var(--intro-xxl);
+  }
+}
+
+.padding-bottom-intro {
+  padding-bottom: var(--intro-xs);
+
+  @include media-breakpoint-up(sm) {
+    padding-bottom: var(---intro-sm);
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: var(--intro-md);
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-bottom: var(--intro-lg);
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding-bottom: var(--intro-xl);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    padding-bottom: var(--intro-xxl);
+  }
+}
+
+.padding-top-element {
+  padding-top: var(--element-xs);
+
+  @include media-breakpoint-up(sm) {
+    padding-top: var(--element-sm);
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-top: var(--element--md);
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: var(--element-lg);
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding-top: var(--element-xl);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    padding-top: var(--element-xxl);
+  }
+}
+
+.padding-bottom-element {
+  padding-bottom: var(--element-xs);
+
+  @include media-breakpoint-up(sm) {
+    padding-bottom: var(--element-sm);
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: var(--element--md);
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-bottom: var(--element-lg);
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding-bottom: var(--element-xl);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    padding-bottom: var(--element-xxl);
+  }
+}
+
+.margin-top-element {
+  margin-top: var(--element-xs);
+
+  @include media-breakpoint-up(sm) {
+    margin-top: var(--element-sm);
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: var(--element--md);
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-top: var(--element-lg);
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-top: var(--element-xl);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    margin-top: var(--element-xxl);
+  }
+}
+
+.margin-bottom-element {
+  margin-bottom: var(--element-xs);
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: var(--element-sm);
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: var(--element--md);
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: var(--element-lg);
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-bottom: var(--element-xl);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    margin-bottom: var(--element-xxl);
+  }
+}
+
+.margin-mobile-bottom-element {
+  margin-bottom: var(--element-xs);
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: var(--element-sm);
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: var(--element--md);
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 0;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    margin-bottom: 0;
+  }
+}
+
+.margin-mobile-top-element {
+  margin-top: var(--element-xs);
+
+  @include media-breakpoint-up(sm) {
+    margin-top: var(--element-sm);
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: var(--element--md);
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-top: 0;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    margin-top: 0;
+  }
+}

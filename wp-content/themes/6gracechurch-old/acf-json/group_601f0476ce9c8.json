@@ -1,0 +1,76 @@
+{
+    "key": "group_601f0476ce9c8",
+    "title": "-- 8 -- block helper -- Text Colour",
+    "fields": [
+        {
+            "key": "field_601f0bda5fa93",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label no-label acf-clear",
+                "id": ""
+            },
+            "message": "Text Colour",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_601f0476dc840",
+            "label": "Text Colour",
+            "name": "text_colour",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "85",
+                "class": "small-label no-label",
+                "id": ""
+            },
+            "choices": {
+                "black": "<span class='acf-color-swatch acf-text-black'>Black<\/span>",
+                "white": "<span class='acf-color-swatch acf-text-white'>White<\/span>",
+                "dark": "<span class='acf-color-swatch acf-text-dark'>Dark<\/span>",
+                "light": "<span class='acf-color-swatch acf-text-light'>Light<\/span>"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "black",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652731039
+}

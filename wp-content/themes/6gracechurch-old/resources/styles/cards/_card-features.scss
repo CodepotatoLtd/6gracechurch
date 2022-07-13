@@ -1,0 +1,36 @@
+.card-features {
+  padding-bottom: 24px;
+  height: 100%;
+
+  .inner {
+    height: 100%;
+    padding: 20px;
+    border: 1px solid  #62E8B9;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    @include media-breakpoint-up(lg) {
+      padding: 30px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      padding: 40px;
+    }
+
+
+    img {
+      height: 120px;
+      width: auto;
+      margin-bottom: 24px;
+
+      @include media-breakpoint-up(lg) {
+        height: 100px;
+      }
+
+      @include media-breakpoint-up(xxl) {
+        height: 160px;
+      }
+    }
+  }
+}

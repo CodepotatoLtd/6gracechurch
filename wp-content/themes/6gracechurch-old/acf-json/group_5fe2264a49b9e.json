@@ -1,0 +1,81 @@
+{
+    "key": "group_5fe2264a49b9e",
+    "title": "-- 8 -- block helper -- BG Colour",
+    "fields": [
+        {
+            "key": "field_601f09c3f6aba",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "15",
+                "class": "small-label no-label acf-clear",
+                "id": ""
+            },
+            "message": "BG Colour",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5fe2264a6db5d",
+            "label": "BG Colour",
+            "name": "bg_colour",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "85",
+                "class": "small-label no-label",
+                "id": ""
+            },
+            "choices": {
+                "none": "<span class='acf-color-swatch acf-bg-none'>None<\/span>",
+                "white": "<span class='acf-color-swatch acf-bg-white'>White<\/span>",
+                "black": "<span class='acf-color-swatch acf-bg-black'>Black<\/span>",
+                "light": "<span class='acf-color-swatch acf-bg-light'>Light<\/span>",
+                "dark": "<span class='acf-color-swatch acf-bg-dark'>Dark<\/span>",
+                "primary": "<span class='acf-color-swatch acf-bg-primary'>P<\/span>",
+                "secondary": "<span class='acf-color-swatch acf-bg-secondary'>S<\/span>",
+                "primary-alt": "<span class='acf-color-swatch acf-bg-primary-alt'>P 2<\/span>",
+                "secondary-alt": "<span class='acf-color-swatch acf-bg-secondary-alt'>S 2<\/span>"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652730440
+}

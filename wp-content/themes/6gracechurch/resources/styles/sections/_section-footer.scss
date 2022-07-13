@@ -1,0 +1,57 @@
+.section-footer {
+
+  .container-fluid {
+    @include media-breakpoint-down(lg) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 175px;
+  }
+
+  ul {
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .socials {
+    a {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      margin-right: 15px;
+
+      @include media-breakpoint-up(lg) {
+        margin-right: 0;
+        margin-left: 15px;
+      }
+
+      &:hover {
+
+        .social0 {
+          //linkin
+          fill:var(--background-color-primary);
+        }
+
+        .social1 {
+          //inner circle
+          stroke:var(--background-color-secondary);
+          fill:var(--background-color-secondary);
+        }
+
+        .social2 {
+          //facebook
+          fill:var(--background-color-primary);
+        }
+
+      }
+    }
+  }
+}

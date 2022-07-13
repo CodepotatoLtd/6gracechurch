@@ -26,6 +26,13 @@ add_action('enqueue_block_editor_assets', function () {
     bundle('editor')->enqueue();
 }, 100);
 
+add_action('add_editor_style', function () {
+    bundle('classic-editor-style')->enqueue();
+}, 100);
+
+//add_editor_style( array|string $stylesheet = 'editor-style.css' )
+
+
 /**
  * Register the initial theme setup.
  *
@@ -40,7 +47,7 @@ add_action('after_setup_theme', function () {
         'clean-up',
         'nav-walker',
         'nice-search',
-        'relative-urls'
+        'relative-urls',
     ]);
 
     /**
@@ -55,7 +62,7 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
      */
     register_nav_menus([
-        'primary_navigation' => __('Primary Navigation', 'sage')
+        'primary_navigation' => __('Primary Navigation', 'sage'),
     ]);
 
     /**
@@ -77,12 +84,6 @@ add_action('after_setup_theme', function () {
     add_theme_support('post-thumbnails');
 
     /**
-     * Enable wide alignment support.
-     * @link https://wordpress.org/gutenberg/handbook/designers-developers/developers/themes/theme-support/#wide-alignment
-     */
-    add_theme_support('align-wide');
-
-    /**
      * Enable responsive embed support.
      * @link https://wordpress.org/gutenberg/handbook/designers-developers/developers/themes/theme-support/#responsive-embedded-content
      */
@@ -99,7 +100,7 @@ add_action('after_setup_theme', function () {
         'gallery',
         'search-form',
         'script',
-        'style'
+        'style',
     ]);
 
     /**
@@ -119,32 +120,16 @@ add_action('widgets_init', function () {
         'before_widget' => '<section class="widget %1$s %2$s">',
         'after_widget' => '</section>',
         'before_title' => '<h3>',
-        'after_title' => '</h3>'
+        'after_title' => '</h3>',
     ];
 
     register_sidebar([
-            'name' => __('Primary', 'sage'),
-            'id' => 'sidebar-primary'
-        ] + $config);
+        'name' => __('Primary', 'sage'),
+        'id' => 'sidebar-primary',
+    ] + $config);
 
     register_sidebar([
-            'name' => __('Footer', 'sage'),
-            'id' => 'sidebar-footer'
-        ] + $config);
-
-    register_sidebar([
-            'name'          => __('Footer Nav', 'sage'),
-            'id'            => 'footer-nav'
-        ] + $config);
-    register_sidebar([
-            'name'          => __('Lower Footer 1', 'sage'),
-            'id'            => 'lower-footer-1'
-        ] + $config);
-
-    register_sidebar([
-            'name'          => __('Lower Footer 2', 'sage'),
-            'id'            => 'lower-footer-2'
-        ] + $config);
-
+        'name' => __('Footer', 'sage'),
+        'id' => 'sidebar-footer',
+    ] + $config);
 });
-

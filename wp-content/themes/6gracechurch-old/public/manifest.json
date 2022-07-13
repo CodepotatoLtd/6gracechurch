@@ -1,0 +1,12 @@
+{
+  "app.js": "app.js",
+  "editor.js": "editor.js",
+  "vendor/bud.app.editor.js": "vendor/bud.app.editor.js",
+  "vendor/app.js": "vendor/app.js",
+  "fonts/TTNormsProBd.woff": "fonts/TTNormsProBd.woff",
+  "fonts/TTNormsProRg.woff": "fonts/TTNormsProRg.woff",
+  "fonts/TTNormsProMd.woff": "fonts/TTNormsProMd.woff",
+  "fonts/TTNormsProBd.woff2": "fonts/TTNormsProBd.woff2",
+  "fonts/TTNormsProRg.woff2": "fonts/TTNormsProRg.woff2",
+  "fonts/TTNormsProMd.woff2": "fonts/TTNormsProMd.woff2"
+}

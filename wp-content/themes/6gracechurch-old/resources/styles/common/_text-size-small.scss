@@ -1,0 +1,418 @@
+:root {
+  --text-size-small-h1-xs: 1rem;
+  --text-size-small-h1-sm: 1rem;
+  --text-size-small-h1-md: 1rem;
+  --text-size-small-h1-lg: 1rem;
+  --text-size-small-h1-xl: 1rem;
+  --text-size-small-h1-xxl: 1rem;
+  --text-size-small-h1-xs-p: 1rem;
+  --text-size-small-h1-sm-p: 1rem;
+  --text-size-small-h1-md-p: 1rem;
+  --text-size-small-h1-lg-p: 1rem;
+  --text-size-small-h1-xl-p: 1rem;
+  --text-size-small-h1-xxl-p: 1rem;
+  --text-size-small-h1-lh:  1.2;
+  --text-size-small-h1-ls: normal;
+  --text-size-small-h1-w: 400;
+  --text-size-small-h1-t: none;
+
+  --text-size-small-h2-xs: 1rem;
+  --text-size-small-h2-sm: 1rem;
+  --text-size-small-h2-md: 1rem;
+  --text-size-small-h2-lg: 1rem;
+  --text-size-small-h2-xl: 1rem;
+  --text-size-small-h2-xxl: 1rem;
+  --text-size-small-h2-xs-p: 1rem;
+  --text-size-small-h2-sm-p: 1rem;
+  --text-size-small-h2-md-p: 1rem;
+  --text-size-small-h2-lg-p: 1rem;
+  --text-size-small-h2-xl-p: 1rem;
+  --text-size-small-h2-xxl-p: 1rem;
+  --text-size-small-h2-lh:  1.2;
+  --text-size-small-h2-ls: normal;
+  --text-size-small-h2-w: 400;
+  --text-size-small-h2-t: none;
+
+  --text-size-small-h3-xs: 1rem;
+  --text-size-small-h3-sm: 1rem;
+  --text-size-small-h3-md: 1rem;
+  --text-size-small-h3-lg: 1rem;
+  --text-size-small-h3-xl: 1rem;
+  --text-size-small-h3-xxl: 1rem;
+  --text-size-small-h3-xs-p: 1rem;
+  --text-size-small-h3-sm-p: 1rem;
+  --text-size-small-h3-md-p: 1rem;
+  --text-size-small-h3-lg-p: 1rem;
+  --text-size-small-h3-xl-p: 1rem;
+  --text-size-small-h3-xxl-p: 1rem;
+  --text-size-small-h3-lh:  1.2;
+  --text-size-small-h3-ls: normal;
+  --text-size-small-h3-w: 400;
+  --text-size-small-h3-t: none;
+
+  --text-size-small-h4-xs: 1rem;
+  --text-size-small-h4-sm: 1rem;
+  --text-size-small-h4-md: 1rem;
+  --text-size-small-h4-lg: 1rem;
+  --text-size-small-h4-xl: 1rem;
+  --text-size-small-h4-xxl: 1rem;
+  --text-size-small-h4-xs-p: 1rem;
+  --text-size-small-h4-sm-p: 1rem;
+  --text-size-small-h4-md-p: 1rem;
+  --text-size-small-h4-lg-p: 1rem;
+  --text-size-small-h4-xl-p: 1rem;
+  --text-size-small-h4-xxl-p: 1rem;
+  --text-size-small-h4-lh:  1.2;
+  --text-size-small-h4-ls: normal;
+  --text-size-small-h4-w: 400;
+  --text-size-small-h4-t: none;
+
+  --text-size-small-h5-xs: 1rem;
+  --text-size-small-h5-sm: 1rem;
+  --text-size-small-h5-md: 1rem;
+  --text-size-small-h5-lg: 1rem;
+  --text-size-small-h5-xl: 1rem;
+  --text-size-small-h5-xxl: 1rem;
+  --text-size-small-h5-xs-p: 1rem;
+  --text-size-small-h5-sm-p: 1rem;
+  --text-size-small-h5-md-p: 1rem;
+  --text-size-small-h5-lg-p: 1rem;
+  --text-size-small-h5-xl-p: 1rem;
+  --text-size-small-h5-xxl-p: 1rem;
+  --text-size-small-h5-lh:  1.2;
+  --text-size-small-h5-ls: normal;
+  --text-size-small-h5-w: 400;
+  --text-size-small-h5-t: none;
+
+  --text-size-small-p-xs: 1rem;
+  --text-size-small-p-sm: 1rem;
+  --text-size-small-p-md: 1rem;
+  --text-size-small-p-lg: 1rem;
+  --text-size-small-p-xl: 1rem;
+  --text-size-small-p-xxl: 1rem;
+  --text-size-small-p-xs-p: 1rem;
+  --text-size-small-p-sm-p: 1rem;
+  --text-size-small-p-md-p: 1rem;
+  --text-size-small-p-lg-p: 1rem;
+  --text-size-small-p-xl-p: 1rem;
+  --text-size-small-p-xxl-p: 1rem;
+  --text-size-small-p-lh:  1.2;
+  --text-size-small-p-ls: normal;
+  --text-size-small-p-w: 400;
+  --text-size-small-p-t: none;
+
+  --text-size-small-q-xs: 1rem;
+  --text-size-small-q-sm: 1rem;
+  --text-size-small-q-md: 1rem;
+  --text-size-small-q-lg: 1rem;
+  --text-size-small-q-xl: 1rem;
+  --text-size-small-q-xxl: 1rem;
+  --text-size-small-q-xs-p: 1rem;
+  --text-size-small-q-sm-p: 1rem;
+  --text-size-small-q-md-p: 1rem;
+  --text-size-small-q-lg-p: 1rem;
+  --text-size-small-q-xl-p: 1rem;
+  --text-size-small-q-xxl-p: 1rem;
+  --text-size-small-q-lh:  1.2;
+  --text-size-small-q-ls: normal;
+  --text-size-small-q-w: 400;
+  --text-size-small-q-t: none;
+
+  --text-size-small-c-xs: 1rem;
+  --text-size-small-c-sm: 1rem;
+  --text-size-small-c-md: 1rem;
+  --text-size-small-c-lg: 1rem;
+  --text-size-small-c-xl: 1rem;
+  --text-size-small-c-xxl: 1rem;
+  --text-size-small-c-xs-p: 1rem;
+  --text-size-small-c-sm-p: 1rem;
+  --text-size-small-c-md-p: 1rem;
+  --text-size-small-c-lg-p: 1rem;
+  --text-size-small-c-xl-p: 1rem;
+  --text-size-small-c-xxl-p: 1rem;
+  --text-size-small-c-lh:  1.2;
+  --text-size-small-c-ls: normal;
+  --text-size-small-c-w: 400;
+  --text-size-small-c-t: none;
+}
+
+.small {
+  h1,
+  .h1 {
+    margin: 0;
+    font-size: var(--text-size-small-h1-xs);
+    padding-bottom: var(--text-size-small-h1-xs-p);
+    line-height: var(--text-size-small-h1-lh);
+    letter-spacing: var(--text-size-small-h1-ls);
+    font-weight: var(--text-size-small-h1-w);
+    text-transform: var(--text-size-small-h1-t);
+
+    @include media-breakpoint-up(sm) {
+      font-size: var(--text-size-small-h1-sm);
+      padding-bottom: var(--text-size-small-h1-sm-p);
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: var(--text-size-small-h1-md);
+      padding-bottom: var(--text-size-small-h1-md-p);
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: var(--text-size-small-h1-lg);
+      padding-bottom: var(--text-size-small-h1-lg-p);
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: var(--text-size-small-h1-xl);
+      padding-bottom: var(--text-size-small-h1-xl-p);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      font-size: var(--text-size-small-h1-xxl);
+      padding-bottom: var(--text-size-small-h1-xxl-p);
+    }
+  }
+
+  h2,
+  .h2 {
+    margin: 0;
+    font-size: var(--text-size-small-h2-xs);
+    padding-bottom: var(--text-size-small-h2-xs-p);
+    line-height: var(--text-size-small-h2-lh);
+    letter-spacing: var(--text-size-small-h2-ls);
+    font-weight: var(--text-size-small-h2-w);
+    text-transform: var(--text-size-small-h2-t);
+
+    @include media-breakpoint-up(sm) {
+      font-size: var(--text-size-small-h2-sm);
+      padding-bottom: var(--text-size-small-h2-sm-p);
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: var(--text-size-small-h2-md);
+      padding-bottom: var(--text-size-small-h2-md-p);
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: var(--text-size-small-h2-lg);
+      padding-bottom: var(--text-size-small-h2-lg-p);
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: var(--text-size-small-h2-xl);
+      padding-bottom: var(--text-size-small-h2-xl-p);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      font-size: var(--text-size-small-h2-xxl);
+      padding-bottom: var(--text-size-small-h2-xxl-p);
+    }
+  }
+
+  h3,
+  .h3 {
+    margin: 0;
+    font-size: var(--text-size-small-h3-xs);
+    padding-bottom: var(--text-size-small-h3-xs-p);
+    line-height: var(--text-size-small-h3-lh);
+    letter-spacing: var(--text-size-small-h3-ls);
+    font-weight: var(--text-size-small-h3-w);
+    text-transform: var(--text-size-small-h3-t);
+
+    @include media-breakpoint-up(sm) {
+      font-size: var(--text-size-small-h3-sm);
+      padding-bottom: var(--text-size-small-h3-sm-p);
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: var(--text-size-small-h3-md);
+      padding-bottom: var(--text-size-small-h3-md-p);
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: var(--text-size-small-h3-lg);
+      padding-bottom: var(--text-size-small-h3-lg-p);
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: var(--text-size-small-h3-xl);
+      padding-bottom: var(--text-size-small-h3-xl-p);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      font-size: var(--text-size-small-h3-xxl);
+      padding-bottom: var(--text-size-small-h3-xxl-p);
+    }
+  }
+
+  h4,
+  .h4 {
+    margin: 0;
+    font-size: var(--text-size-small-h4-xs);
+    padding-bottom: var(--text-size-small-h4-xs-p);
+    line-height: var(--text-size-small-h4-lh);
+    letter-spacing: var(--text-size-small-h4-ls);
+    font-weight: var(--text-size-small-h4-w);
+    text-transform: var(--text-size-small-h4-t);
+
+    @include media-breakpoint-up(sm) {
+      font-size: var(--text-size-small-h4-sm);
+      padding-bottom: var(--text-size-small-h4-sm-p);
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: var(--text-size-small-h4-md);
+      padding-bottom: var(--text-size-small-h4-md-p);
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: var(--text-size-small-h4-lg);
+      padding-bottom: var(--text-size-small-h4-lg-p);
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: var(--text-size-small-h4-xl);
+      padding-bottom: var(--text-size-small-h4-xl-p);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      font-size: var(--text-size-small-h4-xxl);
+      padding-bottom: var(--text-size-small-h4-xxl-p);
+    }
+  }
+
+  p,
+  ul,
+  ol,
+  .p,
+  time {
+    margin: 0;
+    font-size: var(--text-size-small-p-xs);
+    padding-bottom: var(--text-size-small-p-xs-p);
+    line-height: var(--text-size-small-p-lh);
+    letter-spacing: var(--text-size-small-p-ls);
+    font-weight: var(--text-size-small-p-w);
+    text-transform: var(--text-size-small-p-t);
+
+    @include media-breakpoint-up(sm) {
+      font-size: var(--text-size-small-p-sm);
+      padding-bottom: var(--text-size-small-p-sm-p);
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: var(--text-size-small-p-md);
+      padding-bottom: var(--text-size-small-p-md-p);
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: var(--text-size-small-p-lg);
+      padding-bottom: var(--text-size-small-p-lg-p);
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: var(--text-size-small-p-xl);
+      padding-bottom: var(--text-size-small-p-xl-p);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      font-size: var(--text-size-small-p-xxl);
+      padding-bottom: var(--text-size-small-p-xxl-p);
+    }
+  }
+
+  blockquote {
+    p {
+      margin: 0;
+      font-size: var(--text-size-small-q-xs);
+      padding-bottom: var(--text-size-small-q-xs-p);
+      line-height: var(--text-size-small-q-lh);
+      letter-spacing: var(--text-size-small-q-ls);
+      font-weight: var(--text-size-small-q-w);
+      text-transform: var(--text-size-small-q-t);
+
+      @include media-breakpoint-up(sm) {
+        font-size: var(--text-size-small-q-sm);
+        padding-bottom: var(--text-size-small-q-sm-p);
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: var(--text-size-small-q-md);
+        padding-bottom: var(--text-size-small-q-md-p);
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: var(--text-size-small-q-lg);
+        padding-bottom: var(--text-size-small-q-lg-p);
+      }
+
+      @include media-breakpoint-up(xl) {
+        font-size: var(--text-size-small-q-xl);
+        padding-bottom: var(--text-size-small-q-xl-p);
+      }
+
+      @include media-breakpoint-up(xxl) {
+        font-size: var(--text-size-small-q-xxl);
+        padding-bottom: var(--text-size-small-q-xxl-p);
+      }
+    }
+
+    cite {
+      margin: 0;
+      font-size: var(--text-size-small-c-xs);
+      padding-bottom: var(--text-size-small-c-xs-p);
+      line-height: var(--text-size-small-c-lh);
+      letter-spacing: var(--text-size-small-c-ls);
+      font-weight: var(--text-size-small-c-w);
+      text-transform: var(--text-size-small-c-t);
+
+      @include media-breakpoint-up(sm) {
+        font-size: var(--text-size-small-c-sm);
+        padding-bottom: var(--text-size-small-c-sm-p);
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: var(--text-size-small-c-md);
+        padding-bottom: var(--text-size-small-c-md-p);
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: var(--text-size-small-c-lg);
+        padding-bottom: var(--text-size-small-c-lg-p);
+      }
+
+      @include media-breakpoint-up(xl) {
+        font-size: var(--text-size-small-c-xl);
+        padding-bottom: var(--text-size-small-c-xl-p);
+      }
+
+      @include media-breakpoint-up(xxl) {
+        font-size: var(--text-size-small-c-xxl);
+        padding-bottom: var(--text-size-small-c-xxl-p);
+      }
+    }
+  }
+
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  ul,
+  ol {
+    &:last-child {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  ul,
+  ol {
+    padding-left: 2rem;
+  }
+}

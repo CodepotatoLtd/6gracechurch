@@ -1,0 +1,57 @@
+{
+    "key": "group_6043b40603452",
+    "title": "Main Footer CTA",
+    "fields": [
+        {
+            "key": "field_6051122acb66b",
+            "label": "use cta",
+            "name": "footer_cta_use_main",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "yes": "yes",
+                "no": "no"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "yes",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 20,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652731398
+}

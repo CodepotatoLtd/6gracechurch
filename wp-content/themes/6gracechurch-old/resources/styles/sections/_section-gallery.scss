@@ -1,0 +1,147 @@
+.section-gallery {
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+
+  }
+
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+
+  }
+
+  .container-fluid {
+    .swiper-container {
+      overflow: visible;
+    }
+  }
+
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+    position: relative;
+    bottom: auto;
+    width: 100%;
+    z-index: 10000;
+    height: var(--element-xs);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include media-breakpoint-up(sm) {
+      height: var(--element-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      height: var(--element-md);
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: var(--element-lg);
+    }
+
+    @include media-breakpoint-up(xl) {
+      height: var(--element-xl);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      height: var(--element-xxl);
+    }
+
+
+  }
+
+  .outer-wrapper {
+    position: relative;
+    text-align: center;
+    .swiper-container {
+      margin: auto;
+    }
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    background-image:none;
+    width:2.813vw;
+    height: auto;
+    padding: 0;
+    margin-top: -4vw;
+
+    svg {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .swiper-button-prev {
+    left: -8vw;
+  }
+  .swiper-button-next {
+    right: -8vw;
+  }
+
+  &.h-auto-mobile {
+    @include media-breakpoint-down(lg) {
+      .gallery-wrapper {
+        height: 300px;
+        .container-fluid {
+          height: 300px;
+          .row {
+            height: 300px;
+            .column {
+              height: 300px;
+            }
+          }
+          .swiper-container {
+            height: 300px;
+
+            .swiper-slide {
+              height: 300px;
+              width: auto;
+              text-align: center;
+
+              img {
+                width: auto;
+                height: 300px;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .h-fullscreen-mobile {
+    @include media-breakpoint-down(lg) {
+      height: 100vh;
+    }
+  }
+
+  &.h-fullscreen-desktop {
+    @include media-breakpoint-up(lg) {
+      .gallery-wrapper {
+        height:100%;
+        .container-fluid {
+          height:100%;
+          .row {
+            height:100%;
+            .column {
+              height:100%;
+            }
+          }
+          .swiper-container {
+            height: 100%;
+
+            .swiper-slide {
+              height: 100%;
+              width: auto;
+              text-align: center;
+
+              img {
+                width: auto;
+                height: 100%;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

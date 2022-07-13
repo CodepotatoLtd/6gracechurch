@@ -1,0 +1,67 @@
+.header-contact {
+  overflow: hidden;
+  position: relative;
+
+  .contact {
+    padding-bottom: calc(var(--text-size-medium-p-xs-p)/2);
+
+    @include media-breakpoint-up(sm) {
+      padding-bottom: calc(var(--text-size-medium-p-sm-p)/2);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: calc(var(--text-size-medium-p-md-p)/2);
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-bottom: calc(var(--text-size-medium-p-lg-p)/2);
+    }
+
+    @include media-breakpoint-up(xl) {
+      padding-bottom: calc(var(--text-size-medium-p-xl-p)/2);
+    }
+
+    @include media-breakpoint-up(xxl) {
+      padding-bottom: calc(var(--text-size-medium-p-xxl-p)/2);
+    }
+  }
+
+  .quote {
+    padding-bottom: 400px;
+
+    @include media-breakpoint-down(lg) {
+      padding-bottom: 400px;
+      position: relative;
+    }
+  }
+
+  .triangles {
+    position: absolute;
+    overflow:hidden;
+
+    width: calc(100% + 40px);
+    height: 110%;
+    left: -20px;
+    top: 0;
+
+
+    @include media-breakpoint-up(lg) {
+      width: 50vw;
+      height: 100%;
+      left: auto;
+      top: auto;
+      right: 0;
+      bottom: 0;
+    }
+    background: var(--background-color-secondary-alt);
+
+    svg {
+      width: 80%;
+      height: auto;
+      position: absolute;
+      right: 0;
+      bottom: -8vw;
+    }
+  }
+
+}

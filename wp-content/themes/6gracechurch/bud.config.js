@@ -3,16 +3,16 @@
  *
  * @param {bud} app
  */
-module.exports = async(app) => {
-    app
+module.exports = async (app) => {
+  app
     /**
      * Application entrypoints
      *
      * Paths are relative to your resources directory
      */
     .entry({
-        app: ['@scripts/main', '@styles/app'],
-        editor: ['@scripts/editor', '@styles/editor'],
+      app: ['@scripts/main', '@styles/app'],
+      editor: ['@scripts/editor', '@styles/editor'],
     })
 
     /**
@@ -30,13 +30,13 @@ module.exports = async(app) => {
     /**
      * Target URL to be proxied by the dev server.
      *
-     * This is your local dev server.
+     * This should be the URL you use to visit your local development server.
      */
-    .proxy('http://theseven.test')
+    .proxy('http://6gracechurch.test')
 
     /**
-     * Development URL
+     * Development URL to be used in the browser.
      */
-    .serve('http://theseven.test:3000');
-
+    //.serve('http://0.0.0.0:3000');
+    .serve('http://6gracechurch.test:3000');
 };

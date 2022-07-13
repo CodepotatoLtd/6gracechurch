@@ -1,0 +1,15 @@
+.header-image {
+  height: 135vw;
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 100vh;
+
+  }
+}

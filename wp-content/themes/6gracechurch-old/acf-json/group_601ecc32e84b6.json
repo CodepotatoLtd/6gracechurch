@@ -1,0 +1,501 @@
+{
+    "key": "group_601ecc32e84b6",
+    "title": "-- 4 -- Accordion - Options Section",
+    "fields": [
+        {
+            "key": "field_601ecc32eb55c",
+            "label": "Section Options",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_601ecc32eb565",
+            "label": "Section Content",
+            "name": "section_content",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "accordion-group-style-no-label",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6273cedf66c9c",
+                    "label": "(copy)",
+                    "name": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label no-label",
+                        "id": ""
+                    },
+                    "message": "Mobile Spacing",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_6276321743581",
+                    "label": "Padding Top Mobile",
+                    "name": "padding_top_mobile",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_62763199582bb"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_6283aaf7a3887",
+                    "label": "Padding Right Mobile",
+                    "name": "padding_right_mobile",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_6283aad106cc1"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_6276323643582",
+                    "label": "Padding Bottom Mobile",
+                    "name": "padding_bottom_mobile",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_6276313e97c6f"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_6283aaf8a3888",
+                    "label": "Padding Left Mobile",
+                    "name": "padding_left_mobile",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_6283aab2a5e1b"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_601ecc32ee911",
+                    "label": "Height",
+                    "name": "height",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_601f085e0b3e2"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_6282bc4391b66",
+                    "label": "",
+                    "name": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label no-label acf-clear",
+                        "id": ""
+                    },
+                    "message": "Desktop Spacing",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_62763260e5e4c",
+                    "label": "Padding Top Desktop",
+                    "name": "padding_top_desktop",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_627631b99f837"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_6283ab5ec91b3",
+                    "label": "Padding Right Desktop",
+                    "name": "padding_right_desktop",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_6283a9d6135e9"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_62763276e5e4d",
+                    "label": "Padding Bottom Desktop",
+                    "name": "padding_bottom_desktop",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_6276317575c2b"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_6283ab60c91b4",
+                    "label": "Padding Left Desktop",
+                    "name": "padding_left_desktop",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_6283a9afa03ae"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_6282bc6b7fe54",
+                    "label": "Height Desktop",
+                    "name": "height_desktop",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_6282bbe9e96c6"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_60857d847b4c2",
+                    "label": "",
+                    "name": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label no-label acf-clear",
+                        "id": ""
+                    },
+                    "message": "Sizes",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_601ecc32ee8fa",
+                    "label": "Text Size",
+                    "name": "text_size",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_601f07b7eea90"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_602d0b7673043",
+                    "label": "section ID",
+                    "name": "section_id",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "17",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_601ecc32ee8ee",
+                    "label": "Background Colour",
+                    "name": "bg_colour",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_5fe2264a49b9e"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_601ecc32ee8f2",
+                    "label": "Text Colour",
+                    "name": "text_colour",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_601f0476ce9c8"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_61aa0f6236821",
+                    "label": "Animation",
+                    "name": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "message": "",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_61aa12d9005bd",
+                    "label": "Trigger",
+                    "name": "animation_trigger",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_61aa1766598cf",
+                    "label": "Delay",
+                    "name": "animation_delay",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_623814ebbf20a",
+                    "label": "Class",
+                    "name": "section_class",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_601ecc32eb56d",
+            "label": "Section Options",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1653821138
+}

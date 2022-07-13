@@ -1,0 +1,231 @@
+:root {
+  /* --- */
+  --text-color-black-headings: #041C3A;
+  --text-color-black-copy: #041C3A;
+  --text-color-black-links: #041C3A;
+  --text-color-black-links-hover: #041C3A;
+  --text-color-black-alt: #62E8B9;
+  --text-color-black-overlay: #041C3A;
+
+  /* --- */
+  --text-color-white-headings: #fff;
+  --text-color-white-copy: #fff;
+  --text-color-white-links: #fff;
+  --text-color-white-links-hover: #62E8B9;
+  --text-color-white-alt: #62E8B9;
+  --text-color-white-overlay: #fff;
+
+  /* --- */
+  --text-color-dark-headings: #041C3A;
+  --text-color-dark-copy: #041C3A;
+  --text-color-dark-links: #041C3A;
+  --text-color-dark-links-hover: #041C3A;
+  --text-color-dark-alt: #62E8B9;
+  --text-color-dark-overlay: #041C3A;
+
+  /* --- */
+  --text-color-light-headings: #fff;
+  --text-color-light-copy: #fff;
+  --text-color-light-links: #fff;
+  --text-color-light-links-hover: #62E8B9;
+  --text-color-light-alt: #62E8B9;
+  --text-color-light-overlay: #fff;
+}
+
+.text-black {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--text-color-black-headings);
+  }
+
+  p,
+  ol,
+  ul,
+  blockquote {
+    color: var(--text-color-black-copy);
+  }
+
+  cite {
+    color: var(--text-color-black-alt);
+  }
+
+  a {
+    color: var(--text-color-black-links);
+
+    &:hover {
+      color: var(--text-color-black-links-hover);
+    }
+  }
+
+  .alt {
+    color: var(--text-color-dark-alt);
+  }
+
+  .text-seperator {
+    .seperator-inner {
+      &::before {
+        background: var(--text-color-black-copy);
+      }
+    }
+  }
+
+  .bg-overlay {
+    background: var(--text-color-black-overlay);
+  }
+}
+
+.text-white {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--text-color-white-headings);
+  }
+
+  p,
+  ol,
+  ul,
+  blockquote {
+    color: var(--text-color-white-copy);
+  }
+
+  cite {
+    color: var(--text-color-white-alt);
+  }
+
+  a {
+    color: var(--text-color-white-links);
+
+    &:hover {
+      color: var(--text-color-white-links-hover);
+    }
+  }
+
+  .alt {
+    color: var(--text-color-white-alt);
+  }
+
+  .seperator-inner {
+    &::before {
+      background: var(--text-color-white-copy);
+    }
+  }
+
+  .bg-overlay {
+    background: var(--text-color-white-overlay);
+  }
+}
+
+.text-light {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--text-color-light-headings);
+  }
+
+  p,
+  ol,
+  ul,
+  blockquote {
+    color: var(--text-color-light-copy);
+  }
+
+  cite {
+    color: var(--text-color-light-alt);
+  }
+
+  a {
+    color: var(--text-color-light-links);
+
+    &:hover {
+      color: var(--text-color-light-links-hover);
+    }
+  }
+
+  .alt {
+    color: var(--text-color-light-alt);
+  }
+
+  .seperator-inner {
+    &::before {
+      background: var(--text-color-light-copy);
+    }
+  }
+
+  .bg-overlay {
+    background: var(--text-color-light-overlay);
+  }
+
+  h1 {
+    color: var(--text-color-light-alt);
+
+    span {
+      color: var(--text-color-light-copy);
+    }
+  }
+}
+
+.text-dark {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--text-color-dark-headings);
+  }
+
+  p,
+  ol,
+  ul,
+  blockquote {
+    color: var(--text-color-dark-copy);
+  }
+
+  cite {
+    color: var(--text-color-dark-alt);
+
+    span {
+      color: var(--text-color-dark-copy);
+    }
+  }
+
+  a {
+    color: var(--text-color-dark-links);
+
+    &:hover {
+      color: var(--text-color-dark-links-hover);
+    }
+  }
+
+  .alt {
+    color: var(--text-color-dark-alt);
+  }
+
+  .seperator-inner {
+    &::before {
+      background: var(--text-color-dark-copy);
+    }
+  }
+
+  .bg-overlay {
+    background: var(--text-color-dark-overlay);
+  }
+
+  h1 {
+    color: var(--text-color-dark-alt);
+
+    span {
+      color: var(--text-color-dark-copy);
+    }
+  }
+
+  h1.no-sup {
+    color: var(--text-color-dark-copy);
+  }
+}

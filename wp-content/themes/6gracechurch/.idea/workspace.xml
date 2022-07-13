@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68b019d8-de6f-4286-85e2-accd5afe8965" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.budfiles/bud/modules.json" beforeDir="false" afterPath="$PROJECT_DIR$/.budfiles/bud/modules.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/bud/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/.budfiles/bud/profile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/bud/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.budfiles/bud/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/00176005347fc608c0bd4bc637256415.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0020018e39d5e45b12bdda0d28c0b050.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0021cb95280b327a73f0d089b6724d40.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/00903bbeade5d7d21a14424d6df2d43b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/02d8af62fcc8b6f941414e88e9c5755c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/03f97a8a580834b2b60d19571cb98b02.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/03fcbb074bff71b2a08f16dc49b8e4b2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/04d2e18fccb58387b90e1052ad36d47f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/055c3970c93a7f52ed5a3754adcec994.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/05a8933cb718d3792870e4d666ebab49.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/06824743f1bef3432c5983705d6211b4.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/068c1036f9ae179a1fa43d5a46f638f9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/070ed494382cf85c494b067a8f614ba6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/073055f413ca9fe331e807e3789a8fc0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0858a388135e59f2ac331a04feb19453.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/08d41419419cd46884275004de4a5951.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0955ca08062c1ac5df7a90597ea72eae.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/09e08da3df347b307d4b26492c310a32.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0a9d4ba22d59bfb5301494c5cd6fe4bb.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0c6d930fb1c0d8aca9adc18e810f5e2d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0c822b286dcedb64e9cf2e8c1b566b5e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0ce68e7b3a6057de95b90bff291ede39.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0dd2aec83a698118ad55efa167aa8f7d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0dd85a9a1c52a43b893c948b27b0a021.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0eb98c56453efea52f6923c6adfcf45d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0f55e1fb7021e196b2c54414db429b38.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/0ffd873834b318fd9036b2f5373e2c7f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/10041104cf9ec0d78357df54b146914d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/114951e0debd3a878172230ee02192d4.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/11df2a1fd01fe1087e713740575a237f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/149c867e5baa4fd90bad8116ad38c5cf.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/159f2b832b1789335b5aed85f84d0720.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/165ff00dac30defd67a8459821590405.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/17056bff950b1ec3415490f5da4dd08e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/179b0961517a8ccd7d6f7a2de62bee0c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/193b9d2eedf09c15e0f83ac8cfe8915c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/19670a60d9607c80d50347bd82a4fa2b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1acb0e2dc90486962dca6cbeb8bef586.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1c03b64927dc0ae7ea610186c87e1cd4.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1c31a57db9cfb0d4f25c381dbfe3ace5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1c6d1f0e5dcffaf8b504b14b5a013e5f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1d18108da133bd96418d6a63feccd499.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1d24e100d27f7ef31e376802f6f34636.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1dad1e69ee4becf12c4c4de6c30481ab.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1dccea7048434e9e25470cb4bb35ee1a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1dd85501a6646377924ef577bf92c275.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1e42ae1d155c5736f2cce99904de59b3.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1e8cdb71d91c10750346d77a7fca5957.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1ec52decd9d3d4d404df6d882fb7e194.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1ec8304eabfb74b80b262958c0aabbd8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1ed9c1c1be36305f4f49a18012858e5d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1efdad543e5d711465dc8561bd4fff67.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1f80adc2b0e3539a0162b6649bcf2ebf.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/1fdbc47e573f7b027ca6379c5df4cc02.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/20a3b87ee6fe534212dd095cfae6cfa7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/21944fd0061f68467bec67a13e2a328e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/21a709ab6fd7a81d511d45668024ddc3.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/21b71bdf3481ea807cc9d532b7169bc9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/22355415008b4211b863612fc3ec3d28.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/233c234ddcedc05735150ac258b72830.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/23a88b375eb1fbaa12b052192809dd26.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/2408f23e0e69c14d1ef703c76daf71cf.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/24a68906811cd17d732e468c4340f957.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/261a5395e1bba3c01581b5b1c39cb65e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/274da94e59eb34159f9bebc5cfd5bd11.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/286fedff2dac8e3bef890f6bc017fbac.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/287779d186a56dea441b4d044ea59948.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/287d6fe85f6dc5f0cc7a214c706731b2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/288c7f8d4fba670b22bcdb755f94e2fe.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/294a77b1a3b85330c5ad4371d28670c6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/2a960dd9e1a9c022ba51dab96ead0091.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/2bc84724ff2966999750d8315eefbc4e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/2bfae7a017e884889c1b58ad68a0659b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/2c8dd7a94ec090f0991fa4fd32d6a403.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/2dc53b9d1200ea2f838fa41677666ca3.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/2f760f3504410b366c38e7cabf6c1cc4.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/31945c51f23bf7c44673e213f52bef9a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/31dee655afae8f61ebb5b5da74c0acb0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/31fa2b73bb36e897d8864067b29359ea.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/323d157788332a1ac557f8c6324f6a39.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3262ca0971000857e12fbf4b97d7c56c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/32b487cdef9e55666b00e44159093c42.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/32d65880894b038135731a04dcd28564.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/32d9ee4de466ce17590811f553926b3b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3300348efbcdf11d3fa6f4061a31f0e8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3345632ff791c9a31907d78a3e110ba1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/33f126e8d38eb2e1a8c6884eccf002bb.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/35cea17edc73f0ee3e5f6f4b5d62c18e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/36badc382ead20cab4865b78a96075ed.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/37a5ea114af9ae8f45c3e9e7bcd59c5f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/38f8f6ad9fe86a703f11c11b6c1b53a0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/391120f794eb0dc2939cf820f0e19037.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/39cb16d5be20571c63b72890e9e73b29.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3a0c397eff151ff39c364a8f9a73cff0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3a36c1c43676fa7d9cd559b1d7a1fed5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3ae300a69538cadb314669c9f4542784.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3b7126a0519209202fd558b60c29205a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3b7a450f2f979f17749bcb15e1590e75.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3cdf656fd07f234fa1bb170c3d79d0dd.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3d0b53988088ecba071a8fdb8d02f8f8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3ecc3848c4ece8e30bf28e0ed9fab241.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3f2ed74bb2d03453c38d6685f596df2a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/3f6dc99f108b137dba3d18dad3a226fc.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/40b1bd60ed158e5835da3d4237743fc3.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/41300a3b76e5e4d80075902a183a2759.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4135f4a595688f17fed0f825ec99c3c3.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/41ae136c6996f2ffa04e787fb91db406.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/425964d7c6a13b061d414caa544c8842.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/43d20c5c702b0326e4e88ca603be95d0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/43ee251304d7c0bcd4881a67c4954df5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/442532862aa16034e91fbae49c703039.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/45f8a3f58b5c015899746107bb868d3d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/46293363f3ac5159011aaba1ba89b6f0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/46b15a0da5831453d90d537725132410.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4856e3365d77fd00c979b9c4ab21518c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/48f4c2d17f38e7bae5a8bba64d8a6493.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4987720acb6fbad3736bd27238a0d4bc.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4a04a995c3d9d645420b5ec3e1b77ca1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4acc6648008041ba611cb5cbd2413fe0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4b31a9faf5ba1aecdd09e222b2b633ae.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4cebb0f2091cce85197175f59800fab7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4e265a36119930b84534a715d5704c2b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4eac057f77166a2fcc117ab5d355c44c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4eee6f72843e92d7e75b48048b16438a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4f965d0b1d861e18962dc2e5c412c99f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4fe5a0d97455b6cf4dfea2937d3df77c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/4ffd1d2cac961f9be773be2284b0a7d9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/513051c06dcb0fde40cda7d64027166f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/518913a5109ed72d914f4032b2ca8531.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/51af2433860985aec036ae8e6c7bd932.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/51f09689ef405741c6ede2eb56fa8856.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/52579e9269ba1bf75ea4b446a77d734b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/52b031a510d47f9daa4547ebbc272cf7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/52fd5823e18ecf671000e56a97961352.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5307e67bd2c057cac836635bb383f678.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5397376529fcf3ccb5cb971d971e1b27.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/53c443e1e453dacba296248a5f573a39.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/53d81206bb09ef73b5706b2b3d54878d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/540874dcf14972e72c7997f92d1555c4.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/54398bb6080187582cb242c523916d5c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/54992489b502584afca05f8a84069be3.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/54a8160b5b1f29ce552d99dff860c3d2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/54a8faf0cf5967196760754559b20349.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/54bcbb78f5f0f64a9cc63dc2e8cd7cd1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/54cb7aa1bb0f50a3966133db87ce660a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/567cd7fa73640083bb5ea4156fb374e6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/56c04e876a8d83ec7d679e351ef09a3b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/56fc5381f2f8228fd3fb6334ac0b7215.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/571687924b625945b6cbb7463c670db9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/57dcac61f0310e7a322c3c7683444bd2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/592ee3066d89c30a200ca5d683b9a5db.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5a3dcb9e9680cf846e4ba4d634046a37.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5a4bd62c127ab384825207a22e8369bc.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5aa1fa7ea7e962138e99b5a19c7129e9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5c1d53238de93237b1a1a413b391297a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5c6242c66f5260a2706ec28116d028fe.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5cdaa6f6e315057d5ae04487cafa0614.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5d4276c48ba538fbd444eb299db4bc24.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5d93b68ec79f0c4e3af98cf5db2da977.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5e15a066730110b3a77044252c09502f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5e3c59abf32b670ac7ca93098f5e4e39.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5f3b818782640ebc5ad711bf6d4053d5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5fcfd7b412750c7e5ac86fcc40216e6a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/5feabe861239c31656e072f065e41622.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6036b904dade568f3de7af5e0522f47a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/60fcc77d0f02d8c435b2645eaad40f43.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6192c5ab1e5368dd6af634fe44af7e38.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6198367e15f9523714541baab9537a1d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/61d9fc9bfa74f224f6925c72de80db32.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6336a44579e00b381270ec3ad03c84e9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/63d473714e00e0db4def25504e6d2812.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6440659469db2dd8eae0149b77120524.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6474446ecbaf96030e2e9c19eba7441b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/64934481b86d9e2ac4fa9ac2106e5261.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/659cbfb4156bdd972bad1fb7c822909e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/65c960b72d9d9181da37d7f10d8fb33d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/669f80dbc894563bc546c1c4b8a9b381.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6774db14cd56fe75b134ebd88f830601.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/677c122e2a536c0d7993fae5df8b4918.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/67e9c6c9f4e1f040cb0f9b733f87e2aa.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/67f7be2590528c623535ed3f313c1f76.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6849926f3c932207dbaa04c5675445d6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/68688471052af6dfe3f11129685207e1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/68c6cdd344b4120041f3f5c17f837228.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/68da132c9bb9a5b33d97fedd2b000b6d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6a174496f1150ac4d577634ddb5a0aa1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6a384ad5ab375075f5a05ba9da3b988d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6a503b45071f8903d4e206d1f144488d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6a56ee4e33b5616ed9615e56d3e0483f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6a742e9c48ccf6dd4392fb8439578b4c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6bdce71d9e6b1b0509427e5c762c7381.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6c74d072f349635d4a1cd6e3ade6aff0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6ca793921f54fd7dfcf21a146d16eefb.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6d4d0b60430c6caee1197a80d7ba4097.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6d5c6da37161ebbe9fec59a394ec2b1b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6e1c1f21f8a51dab5e795087b113aee0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/6fe6f08677d485efe0e4ee932b3d199e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/70ef052e95386d835d51b09407a6bd82.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/7292f73dd9d42734c5b579e0ae9888a9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/741bb84de6834e050de171662c0022ad.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/74c9c01ddbca932174a421e22bc5e0da.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/7519e1c58afa3d5ab9b94786648e0cfa.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/76806eb585b371b4b9fe39744282554b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/76f395b0baf6d6c3d727dea3f5ca771a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/777e5efc6bfe0a901aaba79d00d3a3ef.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/77b31e3a1986aec5f9825ff537e3bb7d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/781408e51e0f69c05b7eed56a7874c8c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/786deb4e303eca6b536e2962dfdd7930.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/794f9d28502bd93677999e187b4d6ca2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/79883787c9ad9194c4f5149485f15f71.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/79a11ceebfcd7d15f2cdebe8347e669c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/7b5526d6a2d2c11d9b734887f45fd9d3.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/7bcdc3e4fb824605c6acbf51e1c41eb2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/7e4be17a09d4cf24f092ae7d431c73a7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/7ed36adbfe0b24c560d69294b3e73b99.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/7f02b0e752ad0299d088f2b2d33b43fa.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/81211eba9afbfd2de7c17b304cd94f0c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/818107f9cedc6c61943e682187529191.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/82cd5ce6fa3b82145b5dd7393286827e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/8312af2fed7c7bb57098ad53e3832595.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/8486195ddf4e6ba0cb760ffe58b6f023.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/85a9a09abff9ef9c418a74099c881cf5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/8636f449463df109fa8387f7d36b22df.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/879b30cbfc5d765ec1425894c98028ae.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/890b4a214f27f83c905c1fcff9fae696.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/8a828222f816954d5fd8515e1e2d37fe.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/8c1abc5b3c1ee4be71f5421e57b51b37.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/8fdd0c0b6e5545b1dc7b8ed56e3501fb.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/90ba6ec45f6c1d80dd96ac6707721f33.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/90d33abe107bc5dd65f2dc9a63e8e661.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/92082b4a5bb5e7fe4c1ad0d2e40bc900.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/928c9a366784d32223599e30abadaaa8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/9378d9f721fa564e24f6655a70f13f54.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/93f8a5583ebd0216e0953ad32b260868.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/94a10deb188196cfa2ad6b584e4b1c33.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/94faf1d94fb1b6ccb5c43840dbe512b0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/95572c7e619343f40cd85f08fe02b9c7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/95e52a4911fd3183c7e9329dcdf0a59a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/9751b400b85ef524d7ccd8d0beb921ce.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/985e212e767adf5cdd310c2668570daa.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/98a922c791d10331a102f9701b53e1e2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/991b4c0b7292e291f618cb63ed6d1901.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/99271bf9939f608ebf8c0943487d11e7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/99e881eeb95bf591ff47356bbf9f66ae.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/9a814c5014a0dd4c6a321ffc2fad9b19.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/9ac8e9ea269889ee5e537fb5929f507d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/9de601fcadbf0a3b930943dd50a6c718.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/9df472dfbee499d3037d6b2ddde5cc22.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/9e89db92bf073df48c7fc4e934d16a4d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/9e8e532cf61e28bdc06b22562bc28fd2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/9f01b76d3fd4236b01a78752aec5c371.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/9fc1d29a538025aa7af3b87e8eb47146.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a046ad146c894c8699e85b495593eea1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a0d7453f8c89de3d338e8f5c200c9808.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a0f7bb9fc27e7b97e86101e6fe0c20e1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a2bd20b3d4aabfd74a55037b970d5578.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a5635df79c727b94ac08ca0b9d1700de.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a5770f4a45ee4543f5fba1a00d11a767.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a5e318f39647f6b365be60c28d1706d8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a61825f90ebf42570629a4c0ac233f12.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a76dbe37885c7f9e529d1584dc7be249.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a7de524ab17acd812c77ea009e86339e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a907b2ec6f18490fe262bee89de99ea2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/a9c10bdbaf2fb89222c12ab4c2b995b7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/aa383352256c2e34395fa18323bab99b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/aad2a97b069704b2d4c2fc04a25225ff.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/aae1e285d0fd7337cf6c3182d61c1872.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/acf18120a62854198fedeadbe9e2d7f2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/adfebf01abfb5e6e20b8d451ca92ba60.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ae570350b771a8e7536ae9dccc5cbde1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ae802ce126dcbd462a0f78d8f2e346fa.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/aed03593f2c4cfbd92dbae40e64c8b15.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/af397e1733d427d3af2beae599c54ca1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/afb75a16020216fc742f818782804d05.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/b24afbef46af4b112db6912c19b39b9b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/b271e519de4442ae7984cb2a62550dd7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/b2c86f3421665ce3a6a565608e6bc6e0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/b412fd13e57d16837c3a7b6a74251c2e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/b4e181d29608af256f7b0728bcd8ac0b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/b51ecbefa71f5eed65c2e1a448a42942.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/b91fb5d76f29cb929b29fcd84813dd86.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ba522f1e6e5c1bcfdb5c036b24cf7c58.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/bada37b2c1371813eddbc65782e12bd7.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/bb0d3bbd81240feb610ad6dbf53c65bf.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/bb1bb3170b4d93339be2cbadd0ad462b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/bb9864cbabfb0c493c6b18ee0a85b3f5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/bbf62bd1a0cd6b296f83a1e37bfab991.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/bcb9bd5d541895e4355e068b872a29ff.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/bcd9c5fde025c02907548e0c8b182ad5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/be67ee1329adbaff899d3b298a9e9737.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c0f33402dbb131f86b90895b7b9c2771.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c2366013e56a97074d8ebf1bb8883db8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c32f28405b78100135895ee37d0a0d40.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c37593ac44a265c8b5aeb434f3f91e78.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c3b6f590a68e0a37408c5e5c6246926d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c3cfae7cf8f54e74fcae51fd7bb655be.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c4983278e673ff6f51d24e2137ca70d0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c5f6d237b27eb03bb4caca060d9db206.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c62c1723e8b4408775c243829f999242.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c7d8f79ef8f2c86a0f7261eddecca449.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c84a408e9e6ad9fa3102d5281c8fbede.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c85cb58a318911d09e3b04fc7c77c919.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/c97f961d3bfa14d46c19b90944f4fad8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ca3f047a0f783e681ce938d4e06aa80b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/cb8052b1ac06cc6e6754b45dcf8f3812.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/cba93612cec14eac76656b65757eb97e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/cbbc1d9aa2964a5fa9a027ca456dd3e8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/cc8fc2f4681d565d672f8c412b01ad88.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/cc9c88139867b23890567a5f46085a74.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/cdff89d478913fe2f831d339327331d9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d0c56523261b5c0f867284f69ab8c36e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d104e08ae9f3707d943ed392d43db0fb.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d151bfbfa252016924633e8a838dfaf1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d1ec57d1c7ae110acf0e1c15f78210db.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d296830159a010cd8a789b97e8d1db38.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d35a33fd45fe259676e5a5ab2baf5f4c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d410090ba7330c48dfdfc64da18c27ad.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d5b652a7b529e26b9057a6e69438434f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d5e354c328a2204aca6d316d0451937e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d5f75371ff848fa36c18961886336ea2.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d758aa89046784d4eff75c5d99cf40b6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d79a001a49033b583ba7474042aaa442.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/d95c5d3bba4cf18a255e6423d8547add.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/dd345bd06c0aa3fefedbeea6987dc86c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e0d8f3fd48b0c7a9ea016affdb2b0006.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e138ba09202705f750cc49efdb003464.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e1c94e157fc485600b6b1698379ba673.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e2c2726126e91ed8a5e817e04acdd925.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e4b475b5d747534cc798471fac19747a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e4dd70f5a31b27a8acaa35a845d70c1b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e6ac7782838bbf78a6fd5a91eb7e2d9b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e703a8af15b534353d08083b3882dcf9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e863f5595818c74b97381cd49884c1a4.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e89afee5349193a670eb137118f243c6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/e9b711e57ee4f013e3fe2fde3bad0702.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ea49b93bb292312bfade48adc09764b0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ec4fd1527caa9d7ff69f1610d0be5c03.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ec95865d1668d9914dbabe66cf36d3da.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ecbcf74123e93c7d0682233492e1aca4.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ecbd881f48a173b87fb5b1b9a7cd0113.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ed117b47e73d319914ff1cd5e84c0262.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ed397806968f01ebad33ecd479ca3a09.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ef460ce5978baa059c4e67623781e0b5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/ef5345f8a90cf01fcd618a194faf5de0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f0d559d6fcd03571878ffc63080aeb49.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f0fb602cd557231243b4ee2a05f79eba.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f18a4f96395463427917f0c08dc9775c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f1e0055a69bc62e450db98eda34bca33.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f2962dd47cf92b7e01b30d3378088577.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f3302a31bd1c32118506d0fb8125a374.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f3405fe2724acaa8bb8c95c0d3762849.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f37a0adf358051c64f1584acf8a04ad5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f39e4521cb18ac469bac80df7713d0fa.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f44c461b607f670e2cbc940957d9de35.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f47ff8f26f994855e1316586ec248271.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f54bcaa039331b49939af04f196af154.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f556f32fe2fe4f9a80bbcfbf636e7641.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f6e56ce1b5ba37d1c84372e5688c814c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f700bf6e09cc43d7aa7d8c2c90905274.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f7b15ff8724dafcb873fcaf9d370da97.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f857b1be7ba2c9d00d8e2aac44894e43.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f8ce90d3a5a22cbd903b52e8a954b39f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f8d863b3bdb60e19bb477abd61452443.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/f9b1a3702c7af1f81f509066b2b4a215.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/fa09c1724eadbd4c5a7a18e89d7c4746.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/fa2bdaa7987331c4467937623e162e32.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/fc80a654dc48a3e7f5303775a7d37667.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/fd20c45c54a7ef7610c3fe09fdb5cc00.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/babel/fe8d98eb71566e8126413b608efe5cd5.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/0.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/1.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/10.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/11.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/12.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/13.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/2.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/3.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/4.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/5.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/6.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/7.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/8.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/9.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/index.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-development/index.pack.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/0.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/1.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/10.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/11.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/12.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/13.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/14.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/15.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/16.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/17.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/18.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/19.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/2.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/20.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/21.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/22.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/23.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/3.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/4.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/5.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/6.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/7.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/8.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/9.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/index.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.budfiles/cache/webpack/bud-production/index.pack.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sage-with-bud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/includes/acf-admin-classes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/includes/gutenberg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/includes/image-sizes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/includes/options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/includes/text-formats.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/includes/text-formats.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/includes/theme-options-acf-functions-from-group.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bud.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/bud.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-buttons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-carousel-settings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-colours.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-css-vars.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-fonts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-nav.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-text-colours.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-text-size-large.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-text-size-medium.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-text-size-small.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-theme-vertical-spacing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app.c1c4f7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app.e8b1b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/editor.31d6cf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/editor.5f39da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/entrypoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/entrypoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HKGrotesk-Light.4b19da.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HKGrotesk-Light.e40498.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HKGrotesk-Medium.35d573.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HKGrotesk-Medium.ba30a4.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HKGrotesk-Regular.11b821.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HKGrotesk-Regular.73de51.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/app.41d35f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/app.41d35f.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/styles/fonts/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/styles/fonts/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2BtwNgCRiw6wGX78prMgRXoiah6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68b019d8-de6f-4286-85e2-accd5afe8965" name="Changes" comment="" />
+      <created>1657738650419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657738650419</updated>
+      <workItem from="1657738656646" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

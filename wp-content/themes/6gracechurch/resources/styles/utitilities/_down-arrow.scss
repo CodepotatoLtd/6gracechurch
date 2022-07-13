@@ -1,0 +1,22 @@
+.down-arrow {
+  position: absolute;
+  background-image: none;
+  bottom: 40px;
+  left: 50%;
+  width: 50px;
+  height: auto;
+  margin-left: -25px;
+  display: block;
+  z-index: 300;
+
+  .down-nav {
+    stroke-width: 2;
+    fill:none;
+    stroke: #62E8B9;
+  }
+
+  svg {
+    width: 50px;
+    height: auto;
+  }
+}

@@ -1,0 +1,12 @@
+.text-lg-left {
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+  }
+}
+
+.text-lg-right {
+  @include media-breakpoint-up(lg) {
+    text-align: right;
+  }
+}
+

@@ -1,0 +1,33 @@
+#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme {
+  background-color: #041C3A !important;
+  border-top: 0px solid #fff !important;
+
+  p {
+    font-family: acumin-pro, sans-serif !important;
+    font-weight: 300 !important;
+  }
+}
+
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton, #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400 !important;
+  color: #041C3A!important;
+  text-decoration: none;
+  border-radius: 150px;
+  padding: 8px 30px;
+  transition: all .3s ease;
+  border: none;
+  display: inline-block;
+  margin: 3px 4px;
+  white-space: nowrap;
+  text-transform: none;
+  letter-spacing: 0;
+  cursor: pointer;
+  background: #62E8B9;
+  font-family: acumin-pro, sans-serif !important;
+
+  &:hover {
+    color: #041C3A!important;
+  }
+}

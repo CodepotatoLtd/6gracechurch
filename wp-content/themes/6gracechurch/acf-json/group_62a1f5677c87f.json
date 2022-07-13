@@ -1,0 +1,127 @@
+{
+    "key": "group_62a1f5677c87f",
+    "title": "Options",
+    "fields": [
+        {
+            "key": "field_62a1f56efa0bd",
+            "label": "Modal Text",
+            "name": "modal_text",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_62a30f02bf61b",
+            "label": "Facebook",
+            "name": "facebook",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62a30f0bf43ba",
+            "label": "Linkedin",
+            "name": "linkedin",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62ac4cd8e6c67",
+            "label": "Footer Terms",
+            "name": "footer_terms",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_62ac4d0c4e3c9",
+            "label": "Footer Contact",
+            "name": "footer_contact",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-site-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1655459093
+}

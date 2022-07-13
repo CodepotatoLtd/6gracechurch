@@ -1,0 +1,195 @@
+{
+    "key": "group_603f14a21ae1c",
+    "title": "-- 4 -- Accordion -  Options Header Container",
+    "fields": [
+        {
+            "key": "field_603f14a22bf13",
+            "label": "Container Options",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_603f14a22bf18",
+            "label": "Header Options",
+            "name": "header_options",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "accordion-group-style-no-label",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_603f14a23281d",
+                    "label": "",
+                    "name": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "message": "",
+                    "new_lines": "wpautop",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_603f14a232824",
+                    "label": "Width",
+                    "name": "width",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_601fb56d0c15a"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_603f14a23282c",
+                    "label": "Position",
+                    "name": "position",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_601f115875498"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_603f14b4246d1",
+                    "label": "v mobile",
+                    "name": "v_mobile",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "choices": {
+                        "top": "top",
+                        "middle": "middle",
+                        "bottom": "bottom"
+                    },
+                    "default_value": "middle",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_603f14d4246d2",
+                    "label": "v desktop",
+                    "name": "v_desktop",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "small-label",
+                        "id": ""
+                    },
+                    "choices": {
+                        "top": "top",
+                        "middle": "middle",
+                        "bottom": "bottom"
+                    },
+                    "default_value": "middle",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_603f14a22bf20",
+            "label": "Container Options",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1652727173
+}
