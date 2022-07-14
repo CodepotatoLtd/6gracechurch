@@ -508,8 +508,8 @@ function get_text_group_for_section_data($options)
     }
     $editor = (isset($options['editor']) ? $options['editor'] : false);
 
-    if ($editor === "textarea") {
-        $object->text = $options['textarea'];
+    if ($editor === "code") {
+        $object->text = $options['code'];
     } else {
         $object->text = $options['text'];
     }

@@ -2,100 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68b019d8-de6f-4286-85e2-accd5afe8965" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/includes/acf-admin-classes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/includes/gutenberg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/includes/image-sizes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/includes/options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/includes/theme-options-acf-functions-from-group.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6gracechurch.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_58ec932404354.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5ea0a076025c0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5ea0ffad7db1c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5ea104934fbef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5ea485e6b479b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5f2155a69c689.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5f21c3e1ca171.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5f257057b0937.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5f55b5e27a2b0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5f5604deb88a2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5f61cab419361.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5fe2264a49b9e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5fe3328257b97.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_5fe334f5d2df6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6005eb75ac47a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6007f00e35c37.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_60167d5be7738.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_60169911a0507.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601eb4aca0631.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601ecc32e84b6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601f0476ce9c8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601f07b7eea90.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601f085e0b3e2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601f106e65d3b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601f115875498.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601f142205e8b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601fb56d0c15a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601fb833247ce.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_601fb9d17057c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_60200b94c6c0a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_602058efea36d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_60205a0379aae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6027b6b4e1ece.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6028464c504a7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6034f4dc0af5e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_60350ab5cc4b8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6037a82fc12fc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_603f14a21ae1c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6043b40603452.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6049cbceb88a9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_604f2bdfc57d4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_605124432dfad.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_60519a08713c4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6059025e6be11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_60852a7027bd1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_608559b3e7e47.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_608652e86dc66.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6086ced884646.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6086db4f21cc8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_60893d8baa51d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6089575f5e55c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_60924e9626d55.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_609f7d412721f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_609f82d71a3e9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_609f893358dbb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_61a9c6b6bc45c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_62110fa7000d7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_621112c26db55.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_621519f9894ed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_621b879cd877d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_621db07dd7e04.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_622f8a62d8e8a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_622f8ac142279.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_62317074d616e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6231f35b8b7a3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6232593074294.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_62357bab9d974.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6236a9084dcfd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6238003a86b71.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6238e61eadabd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6276313e97c6f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6276317575c2b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_62763199582bb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_627631b99f837.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_627888f8b2375.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6280c67d91af1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6282bbe9e96c6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6283a9afa03ae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6283a9d6135e9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6283aab2a5e1b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6283aad106cc1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6283f122ae0b4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6298ba217bef5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6298c3aaeb46e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_6299d43a39dcf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acf-json/group_62a1f5677c87f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/includes/text-formats.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/includes/text-formats.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acf-json/group_5f5604deb88a2.json" beforeDir="false" afterPath="$PROJECT_DIR$/acf-json/group_5f5604deb88a2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acf-json/group_6238003a86b71.json" beforeDir="false" afterPath="$PROJECT_DIR$/acf-json/group_6238003a86b71.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/includes/theme-options-acf-functions-from-group.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/includes/theme-options-acf-functions-from-group.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sections/header-burger-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sections/header-burger-menu.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657738650419</updated>
-      <workItem from="1657738656646" duration="2224000" />
+      <workItem from="1657738656646" duration="3495000" />
     </task>
     <servers />
   </component>

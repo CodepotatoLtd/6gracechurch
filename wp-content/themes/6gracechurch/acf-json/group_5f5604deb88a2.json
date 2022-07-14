@@ -35,13 +35,45 @@
             "layout": "block",
             "sub_fields": [
                 {
+                    "key": "field_62cfc68ade335",
+                    "label": "Editor",
+                    "name": "editor",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "text": "text",
+                        "code": "code"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "default_value": "text",
+                    "layout": "horizontal",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
                     "key": "field_5f560c3f7d2c8",
                     "label": "Text",
                     "name": "text",
                     "type": "wysiwyg",
                     "instructions": "",
                     "required": 0,
-                    "conditional_logic": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62cfc68ade335",
+                                "operator": "==",
+                                "value": "text"
+                            }
+                        ]
+                    ],
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -52,6 +84,37 @@
                     "toolbar": "full",
                     "media_upload": 1,
                     "delay": 0
+                },
+                {
+                    "key": "field_62cfc66cde334",
+                    "label": "Code",
+                    "name": "code",
+                    "type": "acfe_code_editor",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62cfc68ade335",
+                                "operator": "==",
+                                "value": "code"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "mode": "text\/html",
+                    "lines": 1,
+                    "indent_unit": 4,
+                    "maxlength": "",
+                    "rows": 4,
+                    "max_rows": "",
+                    "return_entities": 0
                 }
             ]
         },
@@ -144,5 +207,5 @@
     "acfe_form": 0,
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1657773574
+    "modified": 1657784007
 }

@@ -3,6 +3,30 @@
     "title": "Options - Nav",
     "fields": [
         {
+            "key": "field_62cfa5262bb5f",
+            "label": "Navigation",
+            "name": "navigation",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "show": "show",
+                "hide": "hide"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "show",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
             "key": "field_6238006f60cd6",
             "label": "Logo",
             "name": "logo",
@@ -967,5 +991,5 @@
     "acfe_form": 0,
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1657741525
+    "modified": 1657775482
 }
