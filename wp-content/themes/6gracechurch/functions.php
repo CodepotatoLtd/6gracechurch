@@ -58,8 +58,12 @@ add_editor_style('resources/styles/classic-editor-style.css');
 
 collect(['setup',
         'filters',
-        'includes/custom-posts',
-        'includes/text-formats'
+        'includes/acf-admin-classes',
+        'includes/gutenberg',
+        'includes/image-sizes',
+        'includes/options',
+        'includes/theme-options-acf-functions-from-group',
+        'includes/text-formats',
         ])
     ->each(function ($file) {
         if (! locate_template($file = "app/{$file}.php", true, true)) {
@@ -84,10 +88,3 @@ collect(['setup',
 
 add_theme_support('sage');
 
-if (function_exists('acf_add_options_page')) {
-    acf_add_options_page(array(
-        'page_title'    => 'Site Options',
-        'menu_title'    => 'Site Options',
-        'menu_slug'     => 'theme-site-options',
-    ));
-}

@@ -35,6 +35,105 @@ function my_mce_before_init_insert_formats($init_array)
             'wrapper' => true,
         ),
 
+
+        array(
+            'title' => 'Heading - Strap Heading',
+            'inline' => 'span',
+            'classes' => 'lead-in-heading',
+            'wrapper' => true,
+        ),
+        array(
+            'title' => 'Heading - Sub Heading',
+            'inline' => 'span',
+            'classes' => 'sub-heading',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'Block Text link',
+            'inline' => 'span',
+            'classes' => 'block-text-link',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'Block Text link',
+            'inline' => 'span',
+            'classes' => 'block-text-link',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'Metropolitan',
+            'block' => 'div',
+            'classes' => 'metropolitan station',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'Hammersmith',
+            'block' => 'div',
+            'classes' => 'hammersmith station',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'Circle',
+            'block' => 'div',
+            'classes' => 'circle station',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'Central',
+            'block' => 'div',
+            'classes' => 'central station',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'National Rail',
+            'block' => 'div',
+            'classes' => 'national station',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'Elizabeth',
+            'block' => 'div',
+            'classes' => 'elizabeth station',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'Northern',
+            'block' => 'div',
+            'classes' => 'northern station',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'DLR',
+            'block' => 'div',
+            'classes' => 'dlr station',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'Waterloo & City',
+            'block' => 'div',
+            'classes' => 'waterloo station',
+            'wrapper' => true,
+        ),
+
+        array(
+            'title' => 'District',
+            'block' => 'div',
+            'classes' => 'district station',
+            'wrapper' => true,
+        ),
+
+
     );
     // Insert the array, JSON ENCODED, into 'style_formats'
     $init_array['style_formats'] = json_encode($style_formats);
