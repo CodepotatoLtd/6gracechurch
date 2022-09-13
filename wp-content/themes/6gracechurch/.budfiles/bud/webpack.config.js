@@ -2,26 +2,22 @@ module.exports = {
   "entry": {
     "app": {
       "import": [
-        "@roots/bud-server/client/index.js?name=bud&bud.overlay=true&bud.indicator=true&path=/__bud/hmr",
-        "@roots/bud-server/client/proxy-click-interceptor.js",
         "@scripts/main",
         "@styles/app"
       ]
     },
     "editor": {
       "import": [
-        "@roots/bud-server/client/index.js?name=bud&bud.overlay=true&bud.indicator=true&path=/__bud/hmr",
-        "@roots/bud-server/client/proxy-click-interceptor.js",
         "@scripts/editor",
         "@styles/editor"
       ]
     }
   },
-  "bail": false,
+  "bail": true,
   "cache": {
-    "name": "bud.development",
+    "name": "bud.production",
     "type": "filesystem",
-    "version": "r1r_rkoqkn3dxgdo20i9jhfaa34_",
+    "version": "mytqtp_f_qliflmjxsqp3wx6xna_",
     "cacheDirectory": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/.budfiles/cache/webpack",
     "managedPaths": [
       "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules"
@@ -40,14 +36,13 @@ module.exports = {
     }
   },
   "context": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch",
-  "devtool": "cheap-module-source-map",
   "infrastructureLogging": {
     "console": {
       "Console": {}
     },
     "level": "none"
   },
-  "mode": "development",
+  "mode": "production",
   "module": {
     "noParse": {},
     "rules": [
@@ -114,13 +109,13 @@ module.exports = {
             ],
             "use": [
               {
-                "loader": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules/style-loader/dist/cjs.js"
+                "loader": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules/mini-css-extract-plugin/dist/loader.js"
               },
               {
                 "loader": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules/css-loader/dist/cjs.js",
                 "options": {
                   "importLoaders": 1,
-                  "sourceMap": true
+                  "sourceMap": false
                 }
               },
               {
@@ -161,7 +156,7 @@ module.exports = {
             ],
             "use": [
               {
-                "loader": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules/style-loader/dist/cjs.js"
+                "loader": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules/mini-css-extract-plugin/dist/loader.js"
               },
               {
                 "loader": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules/css-loader/dist/cjs.js",
@@ -169,7 +164,7 @@ module.exports = {
                   "importLoaders": 1,
                   "localIdentName": "[name]__[local]___[hash:base64:5]",
                   "modules": true,
-                  "sourceMap": true
+                  "sourceMap": false
                 }
               }
             ]
@@ -181,7 +176,7 @@ module.exports = {
             ],
             "type": "asset/resource",
             "generator": {
-              "filename": "images/[name][ext]"
+              "filename": "images/[name].[contenthash:6][ext]"
             }
           },
           {
@@ -191,7 +186,7 @@ module.exports = {
             ],
             "type": "asset/resource",
             "generator": {
-              "filename": "images/[name][ext]"
+              "filename": "images/[name].[contenthash:6][ext]"
             }
           },
           {
@@ -201,7 +196,7 @@ module.exports = {
             ],
             "type": "asset/resource",
             "generator": {
-              "filename": "images/[name][ext]"
+              "filename": "images/[name].[contenthash:6][ext]"
             }
           },
           {
@@ -211,7 +206,7 @@ module.exports = {
             ],
             "type": "asset",
             "generator": {
-              "filename": "fonts/[name][ext]"
+              "filename": "fonts/[name].[contenthash:6][ext]"
             }
           },
           {
@@ -299,13 +294,13 @@ module.exports = {
             ],
             "use": [
               {
-                "loader": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules/style-loader/dist/cjs.js"
+                "loader": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules/mini-css-extract-plugin/dist/loader.js"
               },
               {
                 "loader": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules/css-loader/dist/cjs.js",
                 "options": {
                   "importLoaders": 1,
-                  "sourceMap": true
+                  "sourceMap": false
                 }
               },
               {
@@ -341,7 +336,7 @@ module.exports = {
                 "loader": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/node_modules/resolve-url-loader/index.js",
                 "options": {
                   "root": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/resources",
-                  "sourceMap": true
+                  "sourceMap": false
                 }
               },
               {
@@ -402,19 +397,38 @@ module.exports = {
   "name": "bud",
   "node": false,
   "output": {
-    "assetModuleFilename": "[name][ext]",
-    "chunkFilename": "[name].js",
-    "filename": "[name].js",
+    "assetModuleFilename": "[name].[contenthash:6][ext]",
+    "chunkFilename": "[name].[contenthash:6].js",
+    "filename": "[name].[contenthash:6].js",
     "path": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/public",
     "pathinfo": false,
-    "publicPath": "/"
+    "publicPath": ""
   },
   "optimization": {
     "emitOnErrors": false,
-    "minimize": false,
+    "minimize": true,
     "minimizer": [
-      "..."
+      "...",
+      {
+        "options": {
+          "test": {},
+          "parallel": true,
+          "minimizer": {
+            "options": {
+              "preset": [
+                "default",
+                {
+                  "discardComments": {
+                    "removeAll": true
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
     ],
+    "runtimeChunk": "single",
     "splitChunks": {
       "cacheGroups": {
         "bud": {
@@ -443,13 +457,10 @@ module.exports = {
   "target": "browserslist:/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/package.json",
   "plugins": [
     {
-      "options": {}
-    },
-    {
       "patterns": [
         {
           "from": "images",
-          "to": "[name][ext]",
+          "to": "[name].[contenthash:6][ext]",
           "context": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/resources",
           "noErrorOnMissing": true
         }
@@ -471,6 +482,29 @@ module.exports = {
         "useLegacyEmit": false,
         "writeToFileEmit": true
       }
+    },
+    {
+      "_sortedModulesCache": {},
+      "options": {
+        "filename": "[name].[contenthash:6].css",
+        "ignoreOrder": false,
+        "runtime": true,
+        "chunkFilename": "[name].[contenthash:6].css"
+      },
+      "runtimeOptions": {
+        "linkType": "text/css"
+      }
+    },
+    {
+      "options": {
+        "enabled": true,
+        "verbose": false,
+        "extensions": {},
+        "ignore": [],
+        "remove": {}
+      },
+      "enabled": true,
+      "verbose": false
     },
     {
       "options": {

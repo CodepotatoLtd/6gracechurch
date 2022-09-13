@@ -1,0 +1,20 @@
+.header-text-image {
+  .top {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: var(--element-xl);
+  }
+
+  .bottom {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: var(--element-xl);
+
+    .down-arrow {
+      position: static;
+      margin: 0 auto;
+    }
+  }
+}

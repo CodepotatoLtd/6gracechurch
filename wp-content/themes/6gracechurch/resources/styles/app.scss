@@ -33,7 +33,7 @@
 @import "cards/card-icon";
 @import "cards/card-download";
 @import "headers/header-image";
-@import "headers/header-gy-home";
+@import "headers/header-text-image";
 @import "footers/section-lower-footer";
 @import "sections/section";
 @import "sections/section-text-image";
@@ -42,10 +42,11 @@
 @import "sections/section-gallery-grid";
 @import "sections/section-svg-map";
 @import "sections/_section-floor-selector";
+@import "sections/_section-floor-selector-gallery";
 @import "sections/_section-floor-gallery";
 @import "sections/_section-table";
 @import "sections/_section-fullscreen-map";
-@import "theseven";
+@import "bespoke";
 
 body {
   p{

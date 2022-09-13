@@ -81,6 +81,50 @@
           }
         }
       },
+      "theme.json": {
+        "name": "theme.json",
+        "path": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/theme.json",
+        "module": {
+          "$schema": "https://schemas.wp.org/trunk/theme.json",
+          "version": 2,
+          "settings": {
+            "color": {
+              "palette": [
+                {
+                  "slug": "primary",
+                  "color": "#525ddc",
+                  "name": "Primary"
+                }
+              ],
+              "custom": false,
+              "customGradient": false,
+              "defaultPalette": false,
+              "defaultGradients": false
+            },
+            "custom": {
+              "spacing": {},
+              "typography": {
+                "font-size": {},
+                "line-height": {}
+              }
+            },
+            "spacing": {
+              "padding": true,
+              "units": [
+                "px",
+                "%",
+                "em",
+                "rem",
+                "vw",
+                "vh"
+              ]
+            },
+            "typography": {
+              "customFontSize": false
+            }
+          }
+        }
+      },
       "composer.json": {
         "name": "composer.json",
         "path": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/composer.json",
@@ -182,50 +226,6 @@
             "./public",
             "./node_modules"
           ]
-        }
-      },
-      "theme.json": {
-        "name": "theme.json",
-        "path": "/Users/treforcoster/development2018/6gracechurch/wp-content/themes/6gracechurch/theme.json",
-        "module": {
-          "$schema": "https://schemas.wp.org/trunk/theme.json",
-          "version": 2,
-          "settings": {
-            "color": {
-              "palette": [
-                {
-                  "slug": "primary",
-                  "color": "#525ddc",
-                  "name": "Primary"
-                }
-              ],
-              "custom": false,
-              "customGradient": false,
-              "defaultPalette": false,
-              "defaultGradients": false
-            },
-            "custom": {
-              "spacing": {},
-              "typography": {
-                "font-size": {},
-                "line-height": {}
-              }
-            },
-            "spacing": {
-              "padding": true,
-              "units": [
-                "px",
-                "%",
-                "em",
-                "rem",
-                "vw",
-                "vh"
-              ]
-            },
-            "typography": {
-              "customFontSize": false
-            }
-          }
         }
       },
       "package-lock.json": {
@@ -20604,7 +20604,7 @@
       "log": null,
       "manifest": null,
       "minimize": null,
-      "mode": "development",
+      "mode": "production",
       "modules": null,
       "notify": true,
       "overlay": true,

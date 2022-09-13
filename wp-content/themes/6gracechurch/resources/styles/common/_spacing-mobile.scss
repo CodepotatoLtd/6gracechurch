@@ -1,3 +1,31 @@
+.p-mobile-element {
+  @include media-breakpoint-down(lg) {
+    padding: var(--element-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding: var(--element-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding: var(--element-md);
+    }
+  }
+}
+
+.p-mobile-intro {
+  @include media-breakpoint-down(lg) {
+    padding: var(--intro-xs);
+
+    @include media-breakpoint-up(sm) {
+      padding: var(--intro-sm);
+    }
+
+    @include media-breakpoint-up(md) {
+      padding: var(--intro-md);
+    }
+  }
+}
+
 .p-t-mobile-none {
   @include media-breakpoint-down(lg) {
     padding-top: 0;

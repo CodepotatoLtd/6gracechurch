@@ -3,8 +3,15 @@
 <section id="<?php echo $sectionData->sectionOptions->section_id;?>"
          class="section section-intro
             bg-colour-<?php echo $sectionData -> sectionOptions->bg_colour;?>
-            padding-top-<?php echo $sectionData ->sectionOptions->section_padding_top;?>
-            padding-bottom-<?php echo $sectionData -> sectionOptions->section_padding_bottom;?>
+           p-t-mobile-<?php echo $sectionData -> sectionOptions->section_padding_top_mobile;?>
+           p-r-mobile-<?php echo $sectionData -> sectionOptions->section_padding_right_mobile;?>
+           p-b-mobile-<?php echo $sectionData -> sectionOptions->section_padding_bottom_mobile;?>
+           p-l-mobile-<?php echo $sectionData -> sectionOptions->section_padding_left_mobile;?>
+
+           p-t-desktop-<?php echo $sectionData -> sectionOptions->section_padding_top_desktop;?>
+           p-r-desktop-<?php echo $sectionData -> sectionOptions->section_padding_right_desktop;?>
+           p-b-desktop-<?php echo $sectionData -> sectionOptions->section_padding_bottom_desktop;?>
+           p-l-desktop-<?php echo $sectionData -> sectionOptions->section_padding_left_desktop;?>
             <?php echo $sectionData -> sectionOptions->text_size;?>
             <?php echo $sectionData -> sectionOptions->section_class;?>" >
 

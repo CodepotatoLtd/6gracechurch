@@ -1,3 +1,31 @@
+.p-desktop-element {
+  @include media-breakpoint-up(lg) {
+    padding: var(--element-lg);
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding: var(--element-xl);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    padding: var(--element-xxl);
+  }
+}
+
+.p-desktop-intro {
+  @include media-breakpoint-up(lg) {
+    padding: var(--intro-lg);
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding: var(--intro-xl);
+  }
+
+  @include media-breakpoint-up(xxl) {
+    padding: var(--intro-xxl);
+  }
+}
+
 .p-t-desktop-none {
   @include media-breakpoint-up(lg) {
     padding-top: 0;

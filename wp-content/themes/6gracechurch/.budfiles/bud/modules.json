@@ -1,0 +1,49 @@
+{
+  "chunks": {
+    "byName": {
+      "app": 143,
+      "editor": 189,
+      "runtime": 666,
+      "vendor/app": 329
+    },
+    "bySource": {
+      "0 app": 666,
+      "0 editor": 666,
+      "1 app": 329,
+      "1 editor": 189,
+      "2 app": 143
+    },
+    "usedIds": [
+      143,
+      189,
+      329,
+      666
+    ]
+  },
+  "modules": {
+    "byIdentifier": {
+      "./node_modules/@roots/sage/lib/cjs/client/dom-ready.js": 978,
+      "./node_modules/@roots/sage/lib/cjs/client/index.js": 194,
+      "./node_modules/aos/dist/aos.js": 711,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/autoload/_swiper.js": 746,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/editor.js|d6421ec9472236a33a8da65f3762c43d": 982,
+      "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[1].oneOf[0].use[0]!./resources/scripts/main.js|2864cba2c3bddcec1ca10a63cb9cb9af": 514,
+      "./node_modules/gsap/ScrollToPlugin.js": 127,
+      "./node_modules/gsap/index.js|80115087fb10b644a5acf5474175e656": 358,
+      "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[13].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[13].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[13].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[13].use[4]!./resources/styles/app.scss": 190,
+      "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[2]!./resources/styles/editor.css": 821
+    },
+    "usedIds": [
+      127,
+      190,
+      194,
+      358,
+      514,
+      711,
+      746,
+      821,
+      978,
+      982
+    ]
+  }
+}

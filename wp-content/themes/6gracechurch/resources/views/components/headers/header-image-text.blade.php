@@ -65,9 +65,7 @@
 
 
 <section id="<?php echo $sectionData->sectionOptions->section_id;?>"
-         class="section overflow-hidden
-         section-text-image
-         section-text-image-<?php echo $textGroup->text_position;?>
+         class="section header-text-image overflow-hidden
            bg-colour-<?php echo $sectionData->sectionOptions->bg_colour;?>
            padding-top-<?php echo $sectionData->sectionOptions->section_padding_top;?>
            padding-bottom-<?php echo $sectionData->sectionOptions->section_padding_bottom;?>
@@ -86,7 +84,7 @@
 
         <div class="<?php echo $sectionData->contentOptions->container_width;?>">
 
-          <div class="text-<?php echo $sectionData ->sectionOptions->text_colour;?> <?php echo $sectionData->sectionOptions->text_size;?>" >
+          <div class="content-wrapper text-<?php echo $sectionData ->sectionOptions->text_colour;?> <?php echo $sectionData->sectionOptions->text_size;?>" >
 
             <?php echo $sectionData -> textGroup -> text; ?>
 

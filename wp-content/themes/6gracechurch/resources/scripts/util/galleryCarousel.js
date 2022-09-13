@@ -31,9 +31,9 @@ class GalleryCarousel {
                 slidesPerView: 'auto',
                 centeredSlides: true,
                 speed: 500,
-                spaceBetween: 10,
+                //spaceBetween: 10,
                 //loop: true,
-                //effect: 'fade',
+                effect: 'fade',
                 loop: true,
                 /*autoplay: {
                     delay: 5000,

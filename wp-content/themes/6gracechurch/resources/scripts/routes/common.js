@@ -2,6 +2,7 @@ import GalleryCarousel from "../util/galleryCarousel";
 import BurgerMenu from '../util/burgerMenu.js';
 import SvgMap from '../util/svgMap.js';
 import FloorGallery from '../util/floorGallery.js';
+import FloorSelectorGallerySwiper from '../util/floorSelectorGallerySwiper.js';
 //import ScrollToAnchor from '../util/scrolltoAnchor.js';
 import DownArrow from '../util/downArrow.js';
 import MapFS from '../util/mapFS.js';
@@ -20,6 +21,7 @@ export default {
         const burgerMenu = new BurgerMenu();
         const svgMap = new SvgMap();
         const floorGallery = new FloorGallery();
+        const floorSelectorGallerySwiper = new FloorSelectorGallerySwiper();
         const mapFS = new MapFS();
         //const ScrollToAnchor = new ScrollToAnchor();
         const downArrow = new DownArrow();

@@ -1,0 +1,152 @@
+.section-floor-selector-gallery {
+  position: relative;
+  overflow: hidden;
+  //
+  .container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .selector-wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    .background {
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
+
+    .inner {
+      position: relative;
+    }
+
+    .floor {
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .hotspot {
+      opacity: 0;
+      cursor: pointer;
+    }
+  }
+
+  .floor-wrapper {
+    position: relative;
+
+    .background {
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      position: absolute;
+    }
+
+
+    .floor-image {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+
+      .inner {
+        width: 100%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-left: 7%;
+        padding-right: 7%;
+
+        h3 {
+          margin: 0;
+          padding: 0;
+          font-size: 28px;
+
+          @include media-breakpoint-up(lg) {
+            font-size: 2.5rem;
+          }
+        }
+
+        p {
+          font-family: var(--font-headings);
+          text-transform: uppercase;
+          color: #655951;
+          padding-top: 0.5%;
+          font-size: 28px;
+
+          @include media-breakpoint-up(lg) {
+            font-size: 2.5rem;
+          }
+        }
+
+        .button-cta-small {
+          padding-top: 1.5%;
+          padding-bottom: 10%;
+          display: block;
+
+          a {
+            background: #ff916e;
+            color: #f4f1e7;
+            text-transform: uppercase;
+            font-size: 13px;
+            padding: 13px 15px;
+
+            @include media-breakpoint-up(lg) {
+              font-size: 17px;
+              padding: 16px 19px;
+              text-transform: uppercase;
+            }
+          }
+        }
+
+        .image-wrapper {
+          img {
+            padding-top: 10vw;
+            width: 100%;
+            height: auto;
+
+            @include media-breakpoint-up(lg) {
+              padding-top: 0;
+            }
+          }
+        }
+      }
+    }
+
+    #fi4 {
+      opacity: 1;
+    }
+
+    .compass-wrapper {
+     text-align: right;
+
+      svg {
+        width: 45px;
+        height: auto;
+        margin-left: auto;
+
+      }
+    }
+
+    .key {
+      position: absolute;
+      left: 9%;
+      bottom: 6%;
+    }
+
+    .footnote {
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+    }
+  }
+}

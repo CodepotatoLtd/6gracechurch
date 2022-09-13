@@ -250,7 +250,7 @@ class WPMUDEV_Dashboard_Api {
 		if ( defined( 'WPMUDEV_HUB_ADMIN_URL' ) ) {
 			return WPMUDEV_HUB_ADMIN_URL;
 		} elseif ( defined( 'WPMUDEV_HUB_SITE_URL' ) ) {
-			return is_multisite() ? trailingslashit( WPMUDEV_HUB_SITE_URL ) . 'wp-admin/network/' : trailingslashit( WPMUDEV_HUB_SITE_URL ) . 'wp-admin/';	 		  		  				 		   
+			return is_multisite() ? trailingslashit( WPMUDEV_HUB_SITE_URL ) . 'wp-admin/network/' : trailingslashit( WPMUDEV_HUB_SITE_URL ) . 'wp-admin/';
 		} else {
 			return network_admin_url();
 		}

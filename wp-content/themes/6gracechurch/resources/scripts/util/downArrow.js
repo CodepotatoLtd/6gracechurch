@@ -29,9 +29,7 @@ class DownArrow {
 
             let target = $(this).attr('href');
 
-            ////console.log('target ', target)
-
-            var scrollYPos = ($(target).offset().top );
+            let scrollYPos = ($(target).offset().top );
 
             gsap.to(window, {scrollTo: {y: scrollYPos, autoKill: false}, duration: 0.5});
 

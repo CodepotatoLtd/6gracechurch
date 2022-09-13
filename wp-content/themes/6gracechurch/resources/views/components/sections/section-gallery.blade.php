@@ -53,10 +53,10 @@
                                               <?php foreach ($images as $image) : ?>
                               <div class="swiper-slide bg-colour-<?php echo $sectionData -> sectionOptions->bg_colour;?>">
 
-                                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                                <!--<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />-->
 
-                                <!--<img src="<?php echo esc_url($image['sizes'][$sectionData->galleryOptions->image_size]); ?>"
-                                     alt="<?php echo esc_attr($image['alt']); ?>" />-->
+                                <img src="<?php echo esc_url($image['sizes'][$sectionData->galleryOptions->image_size]); ?>"
+                                     alt="<?php echo esc_attr($image['alt']); ?>" />
                                                     <?php  if ($sectionData->galleryOptions->caption == "yes") {?>
                                         <div class="caption
                                                     text-<?php echo $sectionData->sectionOptions->text_colour;?>
@@ -100,7 +100,13 @@
                             <?php }?>
 
                             <?php  if ($sectionData->galleryOptions->pagination == "yes") {?>
-                              <div class="gallery-pagination swiper-pagination"></div>
+                                <?php  if ($sectionData->galleryOptions->caption == "yes") {?>
+                                <div class="gallery-pagination swiper-pagination has-caption"></div>
+
+                                <?php } else {?>
+                                <div class="gallery-pagination swiper-pagination"></div>
+
+                                <?php }?>
                             <?php }?>
                           </div>
 

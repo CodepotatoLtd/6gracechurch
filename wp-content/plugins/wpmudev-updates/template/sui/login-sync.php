@@ -16,7 +16,7 @@ $hub_tilted2x = WPMUDEV_Dashboard::$site->plugin_url . '/assets/images/onboardin
 $wordpress          = WPMUDEV_Dashboard::$site->plugin_url . '/assets/images/onboarding/wordpress.png';
 $wordpress_tilted   = WPMUDEV_Dashboard::$site->plugin_url . '/assets/images/onboarding/wordpress-tilted.png';
 $wordpress2x        = WPMUDEV_Dashboard::$site->plugin_url . '/assets/images/onboarding/wordpress@2x.png';
-$wordpress_tilted2x = WPMUDEV_Dashboard::$site->plugin_url . '/assets/images/onboarding/wordpress-tilted@2x.png';
+$wordpress_tilted2x = WPMUDEV_Dashboard::$site->plugin_url . '/assets/images/onboarding/wordpress-tilted@2x.png';	 		  		  				 		   
 // Logo.
 $logo   = WPMUDEV_Dashboard::$site->plugin_url . 'assets/images/onboarding/login/logo.png';
 $logo2x = WPMUDEV_Dashboard::$site->plugin_url . 'assets/images/onboarding/login/logo@2x.png';

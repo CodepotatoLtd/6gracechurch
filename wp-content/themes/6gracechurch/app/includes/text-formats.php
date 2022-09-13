@@ -29,6 +29,13 @@ function my_mce_before_init_insert_formats($init_array)
         ),
 
         array(
+            'title' => 'Inline Button CTA',
+            'block' => 'span',
+            'classes' => 'inline-button-cta',
+            'wrapper' => true,
+        ),
+
+        array(
             'title' => 'Text CTA',
             'block' => 'span',
             'classes' => 'text-cta',

@@ -85,6 +85,14 @@
 
     @endif
 
+    @if(get_row_layout() == 'section_floor_selector_gallery')
+
+      <?php $sectionFieldData = get_sub_field('section'); ?>
+
+      @include('components.sections.section-floor-selector-gallery')
+
+    @endif
+
     @if(get_row_layout() == 'section_floor_selector')
 
       <?php $sectionFieldData = get_sub_field('section'); ?>
